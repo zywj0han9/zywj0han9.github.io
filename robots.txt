@@ -11,5 +11,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendor/
 Disallow: /styles/
-
+Disallow: /
 Sitemap: https://blog.zywj0han9.win/sitemap/sitemap.xml
