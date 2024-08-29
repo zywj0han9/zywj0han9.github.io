@@ -1,8 +1,8 @@
-https://blog.zywj0han9.win/schedule/index.html
-https://blog.zywj0han9.win/tags/index.html
-https://blog.zywj0han9.win/CFPages
-https://blog.zywj0han9.win/404.html
-https://blog.zywj0han9.win/about/index.html
-https://blog.zywj0han9.win/categories/index.html
-https://blog.zywj0han9.win/
-https://blog.zywj0han9.win/tags/Cloudflare-Github-Github-Actions-Cloudflare-Pages/
+https://zywj0han9.github.io/blog/schedule/index.html
+https://zywj0han9.github.io/blog/tags/index.html
+https://zywj0han9.github.io/blog/CFPages
+https://zywj0han9.github.io/blog/404.html
+https://zywj0han9.github.io/blog/about/index.html
+https://zywj0han9.github.io/blog/categories/index.html
+https://zywj0han9.github.io/blog
+https://zywj0han9.github.io/blog/tags/Cloudflare-Github-Github-Actions-Cloudflare-Pages/
