@@ -3,11 +3,11 @@
   <title>J0han9</title>
   
   <subtitle>J0han9的随笔</subtitle>
-  <link href="https://zywj0han9.github.io/zywj0han9.github.io/atom.xml" rel="self"/>
+  <link href="https://zywj0han9.github.io/atom.xml" rel="self"/>
   
-  <link href="https://zywj0han9.github.io/zywj0han9.github.io/"/>
-  <updated>2024-08-30T04:52:25.879Z</updated>
-  <id>https://zywj0han9.github.io/zywj0han9.github.io/</id>
+  <link href="https://zywj0han9.github.io/"/>
+  <updated>2024-08-30T08:47:15.283Z</updated>
+  <id>https://zywj0han9.github.io/</id>
   
   <author>
     <name>J0han9</name>
@@ -18,16 +18,14 @@
   
   <entry>
     <title>使用 Github actions 向 Cloudflare Pages 上传网页</title>
-    <link href="https://zywj0han9.github.io/zywj0han9.github.io/CFPages"/>
-    <id>https://zywj0han9.github.io/zywj0han9.github.io/CFPages</id>
+    <link href="https://zywj0han9.github.io/CFPages"/>
+    <id>https://zywj0han9.github.io/CFPages</id>
     <published>2024-08-24T06:44:08.000Z</published>
-    <updated>2024-08-30T04:52:25.879Z</updated>
+    <updated>2024-08-30T08:47:15.283Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul><li><ol><li>简洁</li></ol></li><li><ol start="2"><li>提供搜索栏</li></ol></li><li><ol start="3"><li>无广告</li></ol></li></ul><h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><ul><li><ol><li>整体流程：</li></ol><ul><li>代码部署再GitHub 私有库中，使用Github Actions 在触发push 到main分支时，启动workflows 将html 文件推送到Cloudflare Pages 项目中。</li></ul></li><li><ol start="2"><li>事前准备：</li></ol><ul><li><ol><li>Github 账户</li></ol></li><li><ol start="2"><li>Cloud flare 账户</li></ol></li><li><ol start="3"><li>Cloud flare 有Cloud flare Pages 编辑权限的Token</li></ol></li><li><ol start="4"><li>Github 私有仓库一个</li></ol></li><li><ol start="5"><li>准备好的HTML项目</li></ol></li></ul></li><li><ol start="3"><li>实现：</li></ol><ul><li><ol><li>向Github仓库中添加3个变量 <kbd>CF_TOKEN</kbd><kbd>CF_ID</kbd><kbd>CF_NAME</kbd><br>  这三个变量来源分别为：<ul><li>CF_ID: 在访问<a href="https://dash.cloudflare.com/">cloudflare</a>时，浏览器网址栏形如：<a href="https://dash.cloudflare.com/******%E3%80%82%E5%85%B6%E4%B8%AD">https://dash.cloudflare.com/******。其中</a>****** 就是你的ID。<br>   <img src="/images/CF_ID.png" alt="CF_ID">  </li><li>CF_TOKEN: 登录成功后，在<kbd>个人资料</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>API 令牌</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>创建令牌</kbd>中创建一个拥有Cloud flare Pages编辑权限的Token。<br>   <img src="/images/CF_TOKEN1.png" alt="CF_TOKEN"><br>   <img src="/images/CF_TOKEN2.png" alt="CF_TOKEN"><br>   <img src="/images/CF_TOKEN3.png" alt="CF_TOKEN">  </li><li>CF_NAME: <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> 进入Cloud flare Pages 页面创建一个Pages 项目<br>   <img src="/images/CF_NAME1.png" alt="CF_NAME"><br>   选择上传资产<br>   <img src="/images/CF_NAME2.png" alt="CF_NAME"><br>   输入项目名，这个就是CF_NAME<br>   <img src="/images/CF_NAME3.png" alt="CF_NAME"><br>   这时，Cloud flare已经将Pages 项目创建好了。已经可以接受Github actions push代码过来显示了。</li></ul></li></ol></li><li><ol start="2"><li><p>在本地 git clone 下来你的仓库。<br>  创建.github/workflows/${ Your File Name }.yml  </p><pre><code>   name: 部署 cloudflare Pages 个人落地页   on:   push:       branches:       - main   jobs:       publish:           runs-on: ubuntu-latest           permissions:               contents: read               deployments: write           name: Publish to Cloudflare Pages           steps:               - name: Checkout               uses: actions/checkout@v3                                  # Run a build step here if your project requires                              - name: Publish to Cloudflare Pages               uses: cloudflare/pages-action@v1               with:                   apiToken: ${{ secrets.CF_TOKEN }}                   accountId: ${{ secrets.CF_ID }}                   projectName: ${{ secrets.CF_NAME }}                   directory: ***                   wranglerVersion: '3'</code></pre></li></ol><p>  <em><strong>注意：将</strong></em> <kbd>directory:</kbd>，<kbd>branches:</kbd><em><strong>部分根据实际情况更换</strong></em>  </p></li><li><ol start="3"><li>最后将本地仓库push 到GitHub 中就完成了。</li></ol></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul><li><ol><li>简洁</li></ol></li><li><ol start="2"><li>提供搜索栏</li></ol></li><li><ol start="3"><li>无广告</li></ol></li></ul><h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><span id="more"></span><ul><li><ol><li>整体流程：</li></ol><ul><li>代码部署再GitHub 私有库中，使用Github Actions 在触发push 到main分支时，启动workflows 将html 文件推送到Cloudflare Pages 项目中。</li></ul></li><li><ol start="2"><li>事前准备：</li></ol><ul><li><ol><li>Github 账户</li></ol></li><li><ol start="2"><li>Cloud flare 账户</li></ol></li><li><ol start="3"><li>Cloud flare 有Cloud flare Pages 编辑权限的Token</li></ol></li><li><ol start="4"><li>Github 私有仓库一个</li></ol></li><li><ol start="5"><li>准备好的HTML项目</li></ol></li></ul></li><li><ol start="3"><li>实现：</li></ol><ul><li><ol><li>向Github仓库中添加3个变量 <kbd>CF_TOKEN</kbd><kbd>CF_ID</kbd><kbd>CF_NAME</kbd><br>  这三个变量来源分别为：<ul><li>CF_ID: 在访问<a href="https://dash.cloudflare.com/">cloudflare</a>时，浏览器网址栏形如：<a href="https://dash.cloudflare.com/******%E3%80%82%E5%85%B6%E4%B8%AD">https://dash.cloudflare.com/******。其中</a>****** 就是你的ID。<br>   <img src="/images/CF_ID.png" alt="CF_ID">  </li><li>CF_TOKEN: 登录成功后，在<kbd>个人资料</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>API 令牌</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>创建令牌</kbd>中创建一个拥有Cloud flare Pages编辑权限的Token。<br>   <img src="/images/CF_TOKEN1.png" alt="CF_TOKEN"><br>   <img src="/images/CF_TOKEN2.png" alt="CF_TOKEN"><br>   <img src="/images/CF_TOKEN3.png" alt="CF_TOKEN">  </li><li>CF_NAME: <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> 进入Cloud flare Pages 页面创建一个Pages 项目<br>   <img src="/images/CF_NAME1.png" alt="CF_NAME"><br>   选择上传资产<br>   <img src="/images/CF_NAME2.png" alt="CF_NAME"><br>   输入项目名，这个就是CF_NAME<br>   <img src="/images/CF_NAME3.png" alt="CF_NAME"><br>   这时，Cloud flare已经将Pages 项目创建好了。已经可以接受Github actions push代码过来显示了。</li></ul></li></ol></li><li><ol start="2"><li><p>在本地 git clone 下来你的仓库。<br>  创建.github/workflows/${ Your File Name }.yml  </p><pre><code>   name: 部署 cloudflare Pages 个人落地页   on:   push:       branches:       - main   jobs:       publish:           runs-on: ubuntu-latest           permissions:               contents: read               deployments: write           name: Publish to Cloudflare Pages           steps:               - name: Checkout               uses: actions/checkout@v3                                  # Run a build step here if your project requires                              - name: Publish to Cloudflare Pages               uses: cloudflare/pages-action@v1               with:                   apiToken: ${{ secrets.CF_TOKEN }}                   accountId: ${{ secrets.CF_ID }}                   projectName: ${{ secrets.CF_NAME }}                   directory: ***                   wranglerVersion: '3'</code></pre></li></ol><p>  <em><strong>注意：将</strong></em> <kbd>directory:</kbd>，<kbd>branches:</kbd><em><strong>部分根据实际情况更换</strong></em>  </p></li><li><ol start="3"><li>最后将本地仓库push 到GitHub 中就完成了。</li></ol></li></ul></li></ul>]]></content>
     
     
-      
-      
     <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;ol&gt;
 &lt;li&gt;简洁&lt;/li&gt;
@@ -35,13 +33,25 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;提供搜索栏&lt;/li&gt;
-&lt;</summary>
-      
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;无广告&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;代码部署&quot;&gt;&lt;a href=&quot;#代码部署&quot; class=&quot;headerlink&quot; title=&quot;代码部署&quot;&gt;&lt;/a&gt;代码部署&lt;/h2&gt;</summary>
     
     
     
     
-    <category term="Cloudflare, Github, Github Actions, Cloudflare Pages" scheme="https://zywj0han9.github.io/zywj0han9.github.io/tags/Cloudflare-Github-Github-Actions-Cloudflare-Pages/"/>
+    <category term="Cloudflare" scheme="https://zywj0han9.github.io/tags/Cloudflare/"/>
+    
+    <category term="Cloudflare Page" scheme="https://zywj0han9.github.io/tags/Cloudflare-Page/"/>
+    
+    <category term="Github Action" scheme="https://zywj0han9.github.io/tags/Github-Action/"/>
+    
+    <category term="Github" scheme="https://zywj0han9.github.io/tags/Github/"/>
     
   </entry>
   

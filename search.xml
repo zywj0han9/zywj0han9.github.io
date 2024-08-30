@@ -17,7 +17,8 @@
 </ol>
 </li>
 </ul>
-<h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><ul>
+<h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><span id="more"></span>
+<ul>
 <li><ol>
 <li>整体流程：</li>
 </ol>
@@ -107,7 +108,10 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>Cloudflare, Github, Github Actions, Cloudflare Pages</tag>
+        <tag>Cloudflare</tag>
+        <tag>Cloudflare Page</tag>
+        <tag>Github Action</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
 </search>
