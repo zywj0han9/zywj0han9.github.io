@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>使用 Github actions 向 Cloudflare Pages 上传网页</title>
-    <url>/CFPages</url>
+    <url>/CFPages/</url>
     <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
 <li><ol>
 <li>简洁</li>
