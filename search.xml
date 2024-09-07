@@ -4,7 +4,9 @@
     <title>家庭数据服务中心</title>
     <url>/HomeServer/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>搭建个人家庭数据服务中心的 idea 是因为在大学时想搭建 MC 游戏服务器，但是云服务器又贵性能又差，因此有了这个想法。</p>
-<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><ul>
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><span id="more"></span>
+
+<ul>
 <li>CPU：AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频（680 元淘宝）</li>
 <li>主板：超微 H1SSL-i（1250 元淘宝）</li>
 <li>内存：三星 ECC 2RX4 32G*2（478 元淘宝）</li>
