@@ -6,51 +6,79 @@
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>搭建个人家庭数据服务中心的 idea 是因为在大学时想搭建 MC 游戏服务器，但是云服务器又贵性能又差，因此有了这个想法。</p>
 <h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><span id="more"></span>
 
-<ul>
-<li>CPU：AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频（680 元淘宝）</li>
-<li>主板：超微 H1SSL-i（1250 元淘宝）</li>
-<li>内存：三星 ECC 2RX4 32G*2（478 元淘宝）</li>
-<li>固态：西部数据 SN640 3.68T（1159 淘宝）</li>
-<li>机械：希捷 12T<em>2（599</em>2 元淘宝）</li>
-<li>电源：长城 850W （549 元淘宝）</li>
-<li>机箱：先马黑洞 （279 元淘宝）</li>
-<li>总价：5593 元</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th align="center">硬件</th>
+<th align="center">设备名</th>
+<th align="center">价格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">CPU</td>
+<td align="center">AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频</td>
+<td align="center">680 元淘宝</td>
+</tr>
+<tr>
+<td align="center">主板</td>
+<td align="center">超微 H1SSL-i</td>
+<td align="center">1250 元淘宝</td>
+</tr>
+<tr>
+<td align="center">内存</td>
+<td align="center">三星 ECC 2RX4 32G*2</td>
+<td align="center">478 元淘宝</td>
+</tr>
+<tr>
+<td align="center">固态</td>
+<td align="center">西部数据 SN640 3.68T</td>
+<td align="center">1159 淘宝</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td align="center">希捷 12T*2</td>
+<td align="center">599*2 元淘宝</td>
+</tr>
+<tr>
+<td align="center">电源</td>
+<td align="center">长城 850W</td>
+<td align="center">549 元淘宝</td>
+</tr>
+<tr>
+<td align="center">机箱</td>
+<td align="center">先马黑洞</td>
+<td align="center">279 元淘宝</td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td align="center">—–</td>
+<td align="center">5593 元</td>
+</tr>
+</tbody></table>
 <h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="系统选择"><a href="#系统选择" class="headerlink" title="系统选择"></a>系统选择</h3><p>家用服务器一般会有两个系统选择：<strong>ESXI</strong> 和 <strong>PVE</strong>，本家用服务器选择使用 PVE。</p>
 <ul>
 <li>ESXI：VMware ESXI，VMware 开发的企业级类型 I（type-1）Hypervisor，用于硬件虚拟化。作为类型 I（type-1）Hypervisor，ESXi 不是安装在操作系统上的软件应用程序，而是直接安装在硬件上并且集成了重要的操作系统组件，如内核。VMware ESXi 原名 ESX，2010 年 ESX4.1 版本发布后，VMware 将 ESX 更名为 ESXi。 <sup>[1]</sup></li>
 <li>PVE：Proxmox VE，基于 Debian 使用 Ubuntu 的定制内核，包含安装程序，网页控制台和命令行工具，并且向第三方工具提供了 REST API 在 Affero 通用公共许可证第三版下发行。Proxmox VE 支持两类虚拟化技术：基于容器的 LXC（自 4.0 版开始，3.4 版及以前使用 OpenVZ 技术）和硬件抽象层全虚拟化的 KVM。<sup>[2]</sup></li>
 </ul>
-<h4 id="系统对比"><a href="#系统对比" class="headerlink" title="系统对比"></a>系统对比</h4><ul>
-<li>ESXI：<ul>
-<li>优点：<ol>
-<li>大公司出品，主打稳定。</li>
-<li>远程管理</li>
-<li>开箱即用</li>
-</ol>
-</li>
-<li>缺点：<ol>
-<li>扩展性不如 PVE</li>
-<li>可定制性和可操作性不如 PVE</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>PVE：<ul>
-<li>优点：<ol>
-<li>基于 Debian，开源系统</li>
-<li>高可定制性，高操作性</li>
-<li>足够稳定</li>
-</ol>
-</li>
-<li>缺点：<ol>
-<li>界面友善度欠佳</li>
-<li>需要基础 Linux 命令语句</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
+<h4 id="系统对比"><a href="#系统对比" class="headerlink" title="系统对比"></a>系统对比</h4><table>
+<thead>
+<tr>
+<th align="center">系统</th>
+<th align="center">优点</th>
+<th align="center">缺点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">ESXI</td>
+<td align="center">大公司出品，主打稳定。远程管理。开箱即用。</td>
+<td align="center">扩展性不如 PVE,可定制性和可操作性不如 PVE</td>
+</tr>
+<tr>
+<td align="center">PVE</td>
+<td align="center">基于 Debian，开源系统。高可定制性，高操作性。足够稳定</td>
+<td align="center">界面友善度欠佳。需要基础 Linux 命令语句</td>
+</tr>
+</tbody></table>
 <h3 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h3><p>本节中，默认服务器已经安装完 PVE 系统。</p>
 <h4 id="服务搭建"><a href="#服务搭建" class="headerlink" title="服务搭建"></a>服务搭建</h4><ul>
 <li>Jellyfin：本地影音库，可以搭配 NAS，Apple TV 等使用。也可以使用移动设备观影</li>
