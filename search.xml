@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>家庭数据服务中心</title>
+    <url>/HomeServer/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>搭建个人家庭数据服务中心的 idea 是因为在大学时想搭建 MC 游戏服务器，但是云服务器又贵性能又差，因此有了这个想法。</p>
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><ul>
+<li>CPU：AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频（680 元淘宝）</li>
+<li>主板：超微 H1SSL-i（1250 元淘宝）</li>
+<li>内存：三星 ECC 2RX4 32G*2（478 元淘宝）</li>
+<li>固态：西部数据 SN640 3.68T（1159 淘宝）</li>
+<li>机械：希捷 12T<em>2（599</em>2 元淘宝）</li>
+<li>电源：长城 850W （549 元淘宝）</li>
+<li>机箱：先马黑洞 （279 元淘宝）</li>
+<li>总价：5593 元</li>
+</ul>
+<h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="系统选择"><a href="#系统选择" class="headerlink" title="系统选择"></a>系统选择</h3><p>家用服务器一般会有两个系统选择：<strong>ESXI</strong> 和 <strong>PVE</strong>，本家用服务器选择使用 PVE。</p>
+<ul>
+<li>ESXI：VMware ESXI，VMware 开发的企业级类型 I（type-1）Hypervisor，用于硬件虚拟化。作为类型 I（type-1）Hypervisor，ESXi 不是安装在操作系统上的软件应用程序，而是直接安装在硬件上并且集成了重要的操作系统组件，如内核。VMware ESXi 原名 ESX，2010 年 ESX4.1 版本发布后，VMware 将 ESX 更名为 ESXi。 <sup>[1]</sup></li>
+<li>PVE：Proxmox VE，基于 Debian 使用 Ubuntu 的定制内核，包含安装程序，网页控制台和命令行工具，并且向第三方工具提供了 REST API 在 Affero 通用公共许可证第三版下发行。Proxmox VE 支持两类虚拟化技术：基于容器的 LXC（自 4.0 版开始，3.4 版及以前使用 OpenVZ 技术）和硬件抽象层全虚拟化的 KVM。<sup>[2]</sup></li>
+</ul>
+<h4 id="系统对比"><a href="#系统对比" class="headerlink" title="系统对比"></a>系统对比</h4><ul>
+<li>ESXI：<ul>
+<li>优点：<ol>
+<li>大公司出品，主打稳定。</li>
+<li>远程管理</li>
+<li>开箱即用</li>
+</ol>
+</li>
+<li>缺点：<ol>
+<li>扩展性不如 PVE</li>
+<li>可定制性和可操作性不如 PVE</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>PVE：<ul>
+<li>优点：<ol>
+<li>基于 Debian，开源系统</li>
+<li>高可定制性，高操作性</li>
+<li>足够稳定</li>
+</ol>
+</li>
+<li>缺点：<ol>
+<li>界面友善度欠佳</li>
+<li>需要基础 Linux 命令语句</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h3><p>本节中，默认服务器已经安装完 PVE 系统。</p>
+<h4 id="服务搭建"><a href="#服务搭建" class="headerlink" title="服务搭建"></a>服务搭建</h4><ul>
+<li>Jellyfin：本地影音库，可以搭配 NAS，Apple TV 等使用。也可以使用移动设备观影</li>
+<li>TrueNAS：提供 NAS 服务，与 Jellyfin，PC，GitLab 等配合使用。</li>
+<li>DNS：由于国内 DNS 污染泛滥，因此选择自己搭建。</li>
+<li>GitLab：搭建本地代码库管理，配合 NAS 使用</li>
+<li>WordPress：Blog，有前后端界面</li>
+<li>Bitwarden：密码管理服务，在本地存储，安全性高</li>
+<li>aria2：挂 bt，pt，还可以用来后台下载一些东西</li>
+<li>私有游戏服务端：例如：MC，幻兽帕鲁等</li>
+<li><del>Homeassistant：智能家居系统，由于没有自己的房子，所以暂时搁置</del></li>
+<li>数据库：Mysql + redis</li>
+<li>开发(<strong><font color="red">自行决定</font></strong>)：<ul>
+<li>开发环境；<ol>
+<li>Windows 10，Windows 11</li>
+<li>Ubuntu Linux</li>
+</ol>
+</li>
+<li>测试环境：<ol>
+<li>Windows 10，Windows 11</li>
+<li>Ubuntu Linux</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>… …待补充</li>
+</ul>
+<h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><p>重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font></p>
+<ul>
+<li><input disabled="" type="checkbox"> <font color="blue">EXcaliDraw 流程图绘制</font></li>
+<li><input disabled="" type="checkbox"> <font color="blue">Grafana 监控指标可视化</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">存储和计算分离</font></li>
+<li><input disabled="" type="checkbox"> <font color="gray">CTF 靶场</font></li>
+<li><input disabled="" type="checkbox"> <font color="gray">HA(Homeassistant)</font></li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li>[1] <a href="https://zh.wikipedia.org/wiki/VMware_ESXi">Wiki ESXI</a></li>
+<li>[2] <a href="https://zh.wikipedia.org/wiki/Proxmox_Virtual_Environment">Wiki PVE</a></li>
+<li>[3] <a href="https://v2ex.com/">V2ex</a></li>
+<li>[4] <a href="https://bitwarden.com/help/">Bitwarden</a></li>
+<li>[5] <a href="https://docs.docker.com/engine/install/">Docker</a></li>
+<li>[6] <a href="https://docs.docker.com/compose/install/">Docker Compose</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Home Server Center</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Learning</tag>
+        <tag>Server</tag>
+        <tag>Docker</tag>
+        <tag>Home Server Center</tag>
+        <tag>Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Arch linux 安装记录</title>
     <url>/Archinstall/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为 Windows 系统占用的 CPU，MEM 资源太多。我的老旧笔记本电脑无法完美使用，因此选择 Arch Linux 替换。</p>

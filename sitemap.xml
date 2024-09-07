@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/HomeServer/</loc>
+    
+    <lastmod>2024-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/Archinstall/</loc>
     
     <lastmod>2024-09-07</lastmod>
@@ -122,6 +131,41 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Learning/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Server/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Docker/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Home-Server-Center/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Network/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -133,6 +177,13 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/Cloudflare/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/Home-Server-Center/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
