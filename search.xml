@@ -62,7 +62,6 @@
 <li>aria2：挂 bt，pt，还可以用来后台下载一些东西</li>
 <li>私有游戏服务端：例如：MC，幻兽帕鲁等</li>
 <li><del>Homeassistant：智能家居系统，由于没有自己的房子，所以暂时搁置</del></li>
-<li>数据库：Mysql + redis</li>
 <li>开发(<strong><font color="red">自行决定</font></strong>)：<ul>
 <li>开发环境；<ol>
 <li>Windows 10，Windows 11</li>
@@ -71,20 +70,30 @@
 </li>
 <li>测试环境：<ol>
 <li>Windows 10，Windows 11</li>
-<li>Ubuntu Linux</li>
+<li>Ubuntu Linux、</li>
 </ol>
 </li>
+<li>数据库：Mysql + redis</li>
 </ul>
 </li>
 <li>… …待补充</li>
 </ul>
-<h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><p>重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font></p>
-<ul>
+<h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><ul>
 <li><input disabled="" type="checkbox"> <font color="blue">EXcaliDraw 流程图绘制</font></li>
 <li><input disabled="" type="checkbox"> <font color="blue">Grafana 监控指标可视化</font></li>
 <li><input disabled="" type="checkbox"> <font color="red">存储和计算分离</font></li>
 <li><input disabled="" type="checkbox"> <font color="gray">CTF 靶场</font></li>
 <li><input disabled="" type="checkbox"> <font color="gray">HA(Homeassistant)</font></li>
+</ul>
+<h2 id="TODO-1"><a href="#TODO-1" class="headerlink" title="TODO"></a>TODO</h2><ul>
+<li><input disabled="" type="checkbox"> <font color="red">TrueNAS Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">递归 DNS Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">GitLab Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">Jellyfin Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="gray">WordPress Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">aria2 Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">Bitwarden Deploy 文档编写</font></li>
+<li><input disabled="" type="checkbox"> <font color="gray">开发环境 安装配置 文档编写</font></li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li>[1] <a href="https://zh.wikipedia.org/wiki/VMware_ESXi">Wiki ESXI</a></li>
@@ -187,6 +196,25 @@
         <tag>Arch linux</tag>
         <tag>Linux</tag>
         <tag>System</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TODO</title>
+    <url>/TODO/</url>
+    <content><![CDATA[<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h1><p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
+<ul>
+<li><input disabled="" type="checkbox"> <font color="red">韩语学习</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">Topic 考试，努力考上 6 级</font></li>
+<li><input disabled="" type="checkbox"> <font color="red">韩国计算机留学</font></li>
+<li><input disabled="" type="checkbox"> <font color="blue">学习金融，量化，努力赚钱，努力攒钱</font></li>
+<li><input disabled="" type="checkbox"> <font color="blue">学着用 blog 记录自己学习和折腾的经历</font></li>
+</ul>
+]]></content>
+      <categories>
+        <category>TODO</category>
+      </categories>
+      <tags>
+        <tag>TODO</tag>
       </tags>
   </entry>
   <entry>

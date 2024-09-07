@@ -38,6 +38,15 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/TODO/</loc>
+    
+    <lastmod>2024-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/CFPages/</loc>
     
     <lastmod>2024-09-07</lastmod>
@@ -166,6 +175,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zywj0han9.github.io/tags/TODO/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -184,6 +200,13 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/Home-Server-Center/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/TODO/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
