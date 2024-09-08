@@ -150,9 +150,9 @@
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为 Windows 系统占用的 CPU，MEM 资源太多。我的老旧笔记本电脑无法完美使用，因此选择 Arch Linux 替换。</p>
 <h2 id="为什么选择-Arch-Linux"><a href="#为什么选择-Arch-Linux" class="headerlink" title="为什么选择 Arch Linux"></a>为什么选择 Arch Linux</h2><span id="more"></span>
 
-<p>之前在大学期间，使用过 Ubuntu，Manjaro Linux，deepin，这些系统都是内置很多我不需要的软件，所以 Arch Linux 可以让我定制安装什么软件，使用什么图形化界面。</p>
+<p>之前在大学期间，使用过 Ubuntu，Manjaro Linux，deepin，这些系统都是内置很多我不需要的软件，而且笔记本太老旧带不动，所以 Arch Linux 可以让我定制安装什么软件，使用什么图形化界面。</p>
 <h2 id="图形化界面选择"><a href="#图形化界面选择" class="headerlink" title="图形化界面选择"></a>图形化界面选择</h2><ul>
-<li>如果爱折腾，可以选择 dwm，i3，awesome，bspwm，Qtile，herbstluftwm，IceWM，Sway，xmonad，Hyprland 等平铺式窗口管理器。这些都需要根据相关文档，配置快捷键。缺点是：配置很麻烦。优点是：可以抛弃鼠标所有的操作都可以在键盘上完成。~~~ps：如果不是老旧笔记本我会选择这个~~~</li>
+<li>如果爱折腾，可以选择 dwm，i3，awesome，bspwm，Qtile，herbstluftwm，IceWM，Sway，xmonad，Hyprland 等平铺式窗口管理器。这些都需要根据相关文档，配置快捷键。缺点是：配置很麻烦。优点是：可以抛弃鼠标所有的操作都可以在键盘上完成。~~~ps：如果是主力笔记本，我会选择这个，毕竟出门不用带鼠标~~~</li>
 <li>不建议使用 gnome，因为 Arch Linux 是滚动式更新，很可能会出现更新系统导致电脑无法开机。</li>
 <li>如果不想折腾，可以使用 KDE，xfce 等窗口管理器。最后选择了使用 KDE + Wayland 作为笔记本的界面。</li>
 </ul>
@@ -215,6 +215,10 @@
 <h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
 <li><strong><font color="red">Arch installer 自动脚本安装时，建议仅安装系统，不要安装图形化界面，因为在旧电脑安装可能出现某部分图形化需要的包无法安装。导致系统安装失败。</font></strong></li>
 <li><strong><font color="red">Arch Linux 在更新前建议充分了解更新事项，做好系统备份，防止重要数据丢失</font></strong></li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li>[1] <a href="https://archlinux.org/">Arch Linux Wiki</a></li>
+<li>[2] <a href="https://archlinuxstudio.github.io/ArchLinuxTutorial/#/">Arch Linux 安装指南</a></li>
 </ul>
 ]]></content>
       <categories>
