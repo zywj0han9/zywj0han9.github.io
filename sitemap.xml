@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zywj0han9.github.io/KRlife/</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/HomeServer/</loc>
     
     <lastmod>2024-09-08</lastmod>
@@ -176,6 +185,20 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/tags/KR-Life/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Abroad/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/tags/TODO/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -200,6 +223,13 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/Home-Server-Center/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/Abroad/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
