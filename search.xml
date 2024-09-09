@@ -3,7 +3,8 @@
   <entry>
     <title>Topik 教材</title>
     <url>/Topik/</url>
-    <content><![CDATA[<h1 id="Topik-教材"><a href="#Topik-教材" class="headerlink" title="Topik 教材"></a>Topik 教材</h1><span id="more"></span>
+    <content><![CDATA[<h1 id="Topik-教材"><a href="#Topik-教材" class="headerlink" title="Topik 教材"></a>Topik 教材</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>韩语 Topik 考试备考教材。所有书籍均为互联网获取。</p>
+<span id="more"></span>
 
 <ul>
 <li><a href="https://github.com/zywj0han9/Topik.git">延世韩国语 1-6</a></li>
@@ -22,10 +23,10 @@
   <entry>
     <title>韩国的生活</title>
     <url>/KRlife/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/IMG_0968.jpeg" alt="韩国风景"></h2><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为一些原因，我的家庭全部来到了韩国打工，因此想记录一下自己在韩国的生活。</p>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为一些原因，我的家庭全部来到了韩国打工，因此想记录一下自己在韩国的生活。</p>
 <span id="more"></span>
 
-<h2 id="初来乍到"><a href="#初来乍到" class="headerlink" title="初来乍到"></a>初来乍到</h2><p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/IMG_0962.jpeg" alt="韩国风景"></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/IMG_0968.jpeg" alt="韩国风景"></h2><h2 id="初来乍到"><a href="#初来乍到" class="headerlink" title="初来乍到"></a>初来乍到</h2><p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/IMG_0962.jpeg" alt="韩国风景"></p>
 <ul>
 <li><p>道路：</p>
 <ol>
@@ -96,9 +97,9 @@
     <title>家庭数据服务中心</title>
     <url>/HomeServer/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>搭建个人家庭数据服务中心的 idea 是因为在大学时想搭建 MC 游戏服务器，但是云服务器又贵性能又差，因此有了这个想法。</p>
-<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><span id="more"></span>
+<span id="more"></span>
 
-<table>
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><table>
 <thead>
 <tr>
 <th align="center">硬件</th>
@@ -240,9 +241,9 @@
     <title>Arch linux 安装记录</title>
     <url>/Archinstall/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为 Windows 系统占用的 CPU，MEM 资源太多。我的老旧笔记本电脑无法完美使用，因此选择 Arch Linux 替换。</p>
-<h2 id="为什么选择-Arch-Linux"><a href="#为什么选择-Arch-Linux" class="headerlink" title="为什么选择 Arch Linux"></a>为什么选择 Arch Linux</h2><span id="more"></span>
+<span id="more"></span>
 
-<p>之前在大学期间，使用过 Ubuntu，Manjaro Linux，deepin，这些系统都是内置很多我不需要的软件，而且笔记本太老旧带不动，所以 Arch Linux 可以让我定制安装什么软件，使用什么图形化界面。</p>
+<h2 id="为什么选择-Arch-Linux"><a href="#为什么选择-Arch-Linux" class="headerlink" title="为什么选择 Arch Linux"></a>为什么选择 Arch Linux</h2><p>之前在大学期间，使用过 Ubuntu，Manjaro Linux，deepin，这些系统都是内置很多我不需要的软件，而且笔记本太老旧带不动，所以 Arch Linux 可以让我定制安装什么软件，使用什么图形化界面。</p>
 <h2 id="图形化界面选择"><a href="#图形化界面选择" class="headerlink" title="图形化界面选择"></a>图形化界面选择</h2><ul>
 <li>如果爱折腾，可以选择 dwm，i3，awesome，bspwm，Qtile，herbstluftwm，IceWM，Sway，xmonad，Hyprland 等平铺式窗口管理器。这些都需要根据相关文档，配置快捷键。缺点是：配置很麻烦。优点是：可以抛弃鼠标所有的操作都可以在键盘上完成。~~~ps：如果是主力笔记本，我会选择这个，毕竟出门不用带鼠标~~~</li>
 <li>不建议使用 gnome，因为 Arch Linux 是滚动式更新，很可能会出现更新系统导致电脑无法开机。</li>
@@ -325,11 +326,10 @@
   <entry>
     <title>TODO</title>
     <url>/TODO/</url>
-    <content><![CDATA[<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h1><span id="more"></span>
+    <content><![CDATA[<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>预计要做的事情。</p>
+<span id="more"></span>
 
-<p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
-<!-- more -->
-
+<h2 id="TODO-1"><a href="#TODO-1" class="headerlink" title="TODO"></a>TODO</h2><p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
 <ul>
 <li><input disabled="" type="checkbox"> <font color="red">韩语学习</font></li>
 <li><input disabled="" type="checkbox"> <font color="red">Topic 考试，努力考上 6 级</font></li>
@@ -348,7 +348,10 @@
   <entry>
     <title>使用 Github actions 向 Cloudflare Pages 上传网页</title>
     <url>/CFPages/</url>
-    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>简单记录如何使用 Github Actions 将代码部署到 Cloudflare Pages。</p>
+<span id="more"></span>
+
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
 <li><ol>
 <li>简洁</li>
 </ol>
@@ -362,9 +365,7 @@
 </ol>
 </li>
 </ul>
-<h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><span id="more"></span>
-
-<ul>
+<h2 id="代码部署"><a href="#代码部署" class="headerlink" title="代码部署"></a>代码部署</h2><ul>
 <li><ol>
 <li>整体流程：</li>
 </ol>
