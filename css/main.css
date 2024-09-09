@@ -1457,7 +1457,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #2111b4;
+    background: #ffbf5b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3032,7 +3032,7 @@ header.header {
   }
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/background-img-1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
