@@ -306,8 +306,10 @@
   <entry>
     <title>TODO</title>
     <url>/TODO/</url>
-    <content><![CDATA[<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h1><p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
-<span id="more"></span>
+    <content><![CDATA[<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h1><span id="more"></span>
+
+<p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
+<!-- more -->
 
 <ul>
 <li><input disabled="" type="checkbox"> <font color="red">韩语学习</font></li>
@@ -391,44 +393,19 @@
 </ol>
 </li>
 <li><ol start="2">
-<li><p>在本地 git clone 下来你的仓库。<br>创建.github/workflows/${ Your File Name }.yml</p>
-<pre><code>    name: 部署 cloudflare Pages 个人落地页
-    on:
-    push:
-        branches:
-        - main
-
-    jobs:
-        publish:
-            runs-on: ubuntu-latest
-            permissions:
-                contents: read
-                deployments: write
-            name: Publish to Cloudflare Pages
-            steps:
-                - name: Checkout
-                uses: actions/checkout@v3
-
-                    # Run a build step here if your project requires
-
-                - name: Publish to Cloudflare Pages
-                uses: cloudflare/pages-action@v1
-                with:
-                    apiToken: ${{ secrets.CF_TOKEN }}
-                    accountId: ${{ secrets.CF_ID }}
-                    projectName: ${{ secrets.CF_NAME }}
-                    directory: ***
-                    wranglerVersion: '3'
-</code></pre>
-<p><strong><em>注意：将</em></strong> <kbd>directory:</kbd>，<kbd>branches:</kbd><strong><em>部分根据实际情况更换</em></strong></p>
-</li>
-</ol>
-</li>
-<li><ol start="3">
-<li>最后将本地仓库 push 到 GitHub 中就完成了。</li>
+<li>在本地 git clone 下来你的仓库。<br>创建.github/workflows/${ Your File Name }.yml</li>
 </ol>
 </li>
 </ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name: 部署 cloudflare Pages 个人网页</span><br><span class="line">on:</span><br><span class="line">push:</span><br><span class="line">    branches:</span><br><span class="line">    - main</span><br><span class="line"></span><br><span class="line">jobs:</span><br><span class="line">    publish:</span><br><span class="line">        runs-on: ubuntu-latest</span><br><span class="line">        permissions:</span><br><span class="line">            contents: read</span><br><span class="line">            deployments: write</span><br><span class="line">        name: Publish to Cloudflare Pages</span><br><span class="line">        steps:</span><br><span class="line">            - name: Checkout</span><br><span class="line">            uses: actions/checkout@v3</span><br><span class="line"></span><br><span class="line">                # Run a build step here if your project requires</span><br><span class="line"></span><br><span class="line">            - name: Publish to Cloudflare Pages</span><br><span class="line">            uses: cloudflare/pages-action@v1</span><br><span class="line">            with:</span><br><span class="line">                apiToken: ${{ secrets.CF_TOKEN }}</span><br><span class="line">                accountId: ${{ secrets.CF_ID }}</span><br><span class="line">                projectName: ${{ secrets.CF_NAME }}</span><br><span class="line">                directory: ***</span><br><span class="line">                wranglerVersion: '3'</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>注意：将</em></strong> <kbd>directory:</kbd>，<kbd>branches:</kbd><strong><em>部分根据实际情况更换</em></strong></p>
+<ul>
+<li><ol start="3">
+<li>最后将本地仓库 push 到 GitHub 中就完成了。</li>
+</ol>
 </li>
 </ul>
 ]]></content>
