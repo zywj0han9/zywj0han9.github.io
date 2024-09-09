@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zywj0han9.github.io/Topik/</loc>
-    
-    <lastmod>2024-09-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zywj0han9.github.io/KRlife/</loc>
     
     <lastmod>2024-09-09</lastmod>
@@ -56,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://zywj0han9.github.io/404.html</loc>
-    
-    <lastmod>2024-09-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zywj0han9.github.io/about/index.html</loc>
     
     <lastmod>2024-09-09</lastmod>
@@ -93,6 +75,15 @@
   
   <url>
     <loc>https://zywj0han9.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/404.html</loc>
     
     <lastmod>2024-09-09</lastmod>
     
@@ -214,13 +205,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://zywj0han9.github.io/tags/Topik/</loc>
-    <lastmod>2024-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -253,13 +237,6 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/TODO/</loc>
-    <lastmod>2024-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zywj0han9.github.io/categories/Topik/</loc>
     <lastmod>2024-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
