@@ -81,53 +81,31 @@
 
 <h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><table>
 <thead>
-<tr>
-<th align="center">硬件</th>
-<th align="center">设备名</th>
-<th align="center">价格</th>
-</tr>
+<th>配件</th>
+<th>名称</th>
 </thead>
-<tbody><tr>
-<td align="center">CPU</td>
-<td align="center">AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频</td>
-<td align="center">680 元淘宝</td>
+<tr>
+<th>CPU</th>
+<td>intel 12700K</td>
 </tr>
 <tr>
-<td align="center">主板</td>
-<td align="center">超微 H1SSL-i</td>
-<td align="center">1250 元淘宝</td>
+<th>内存</th>
+<td>金士顿 DDR5 16G*4</td>
 </tr>
 <tr>
-<td align="center">内存</td>
-<td align="center">三星 ECC 2RX4 32G*2</td>
-<td align="center">478 元淘宝</td>
+<th>主板</th>
+<td>MSI carbon Wifi DDR5 </td>
 </tr>
 <tr>
-<td align="center">固态</td>
-<td align="center">西部数据 SN640 3.68T</td>
-<td align="center">1159 淘宝</td>
+<th>电源</th>
+<td>追风者850W</td>
 </tr>
 <tr>
-<td align="center">机械</td>
-<td align="center">希捷 12T*2</td>
-<td align="center">599*2 元淘宝</td>
+<th>固态硬盘</th>
+<td>512G 铠侠</td>
 </tr>
-<tr>
-<td align="center">电源</td>
-<td align="center">长城 850W</td>
-<td align="center">549 元淘宝</td>
-</tr>
-<tr>
-<td align="center">机箱</td>
-<td align="center">先马黑洞</td>
-<td align="center">279 元淘宝</td>
-</tr>
-<tr>
-<td align="center">—</td>
-<td align="center">—–</td>
-<td align="center">5593 元</td>
-</tr>
-</tbody></table>
+</table>
+
 <h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="系统选择"><a href="#系统选择" class="headerlink" title="系统选择"></a>系统选择</h3><p>家用服务器一般会有两个系统选择：<strong>ESXI</strong> 和 <strong>PVE</strong>，本家用服务器选择使用 PVE。</p>
 <ul>
 <li>ESXI：VMware ESXI，VMware 开发的企业级类型 I（type-1）Hypervisor，用于硬件虚拟化。作为类型 I（type-1）Hypervisor，ESXi 不是安装在操作系统上的软件应用程序，而是直接安装在硬件上并且集成了重要的操作系统组件，如内核。VMware ESXi 原名 ESX，2010 年 ESX4.1 版本发布后，VMware 将 ESX 更名为 ESXi。 <sup>[1]</sup></li>
@@ -300,6 +278,7 @@
       <tags>
         <tag>Arch linux</tag>
         <tag>Linux</tag>
+        <tag>Learning</tag>
         <tag>System</tag>
       </tags>
   </entry>
@@ -413,6 +392,7 @@
         <category>Cloudflare</category>
       </categories>
       <tags>
+        <tag>Learning</tag>
         <tag>Cloudflare</tag>
         <tag>Cloudflare Page</tag>
         <tag>Github Action</tag>
