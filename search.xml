@@ -67,7 +67,7 @@
 <li><input disabled="" type="checkbox"> 溶灵尊</li>
 <li><input disabled="" type="checkbox"> 疆南星刺</li>
 <li><input disabled="" type="checkbox"> 终极·螺钉拐刃</li>
-<li><input disabled="" type="checkbox"> 翁 Prime</li>
+<li><input checked="" disabled="" type="checkbox"> 翁 Prime</li>
 <li><input disabled="" type="checkbox"> 西亚什</li>
 <li><input disabled="" type="checkbox"> 西伯利亚冰锤</li>
 <li><input disabled="" type="checkbox"> 赫利俄光锤</li>
