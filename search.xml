@@ -182,49 +182,6 @@
       </tags>
   </entry>
   <entry>
-    <title>每日Topik - Day 1</title>
-    <url>/TopikD1/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>每日 Topik Day 1。</p>
-<span id="more"></span>
-
-<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ol>
-<h2 id="单词"><a href="#单词" class="headerlink" title="单词"></a>单词</h2><ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ol>
-<h2 id="错题"><a href="#错题" class="headerlink" title="错题"></a>错题</h2><ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ol>
-<h2 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h2><ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Topik</category>
-      </categories>
-      <tags>
-        <tag>Topik Daily</tag>
-        <tag>Topik</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Warframe</title>
     <url>/Warframe/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>记录游戏 Warframe 中的事</p>
@@ -673,16 +630,16 @@
   <entry>
     <title>TODO</title>
     <url>/TODO/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>预计要做的事情。</p>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>要做的事情。</p>
 <span id="more"></span>
 
-<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>。<br>不会再在文章中出现该句解释</p>
+<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><p>TODO 列表，重要性分级：<font color="red">高优先级</font>，<font color="blue">普通级</font>，<font color="gray">低优先级</font>，<font color="green">长时间做的事</font>。<br>不会再在文章中出现该句解释</p>
 <ul>
-<li><input disabled="" type="checkbox"> <font color="red">韩语学习</font></li>
+<li><input disabled="" type="checkbox"> <font color="green">韩语学习</font></li>
 <li><input disabled="" type="checkbox"> <font color="red">Topic 考试，努力考上 6 级</font></li>
 <li><input disabled="" type="checkbox"> <font color="red">韩国计算机留学</font></li>
-<li><input disabled="" type="checkbox"> <font color="blue">学习金融，量化，努力赚钱，努力攒钱</font></li>
-<li><input disabled="" type="checkbox"> <font color="blue">学着用 blog 记录自己学习和折腾的经历</font></li>
+<li><input disabled="" type="checkbox"> <font color="green">学习金融，量化，努力赚钱，努力攒钱</font></li>
+<li><input disabled="" type="checkbox"> <font color="green">学着用 blog 记录自己学习和折腾的经历</font></li>
 </ul>
 ]]></content>
       <categories>
