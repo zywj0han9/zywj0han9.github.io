@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>区块链-初接触</title>
+    <url>/BlockChain_1/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>初次接触区块链，学习区块链的路线和网站记录。</p>
+<span id="more"></span>
+
+<p>想学习区块链的想法是在我出国之后出现的，一方面是在国内这是不被允许的，另一方面在国外不太想天天坐班，毕竟我为了在家能舒服的玩电脑，下很大心思做桌子，买椅子。在网上查询到 Web3 行业上班是有全远程工作的。而且我还想经常在国外旅游，现在一些国家 USDT 甚至可以当法币进行交易，这简化了我往返国内外的换汇步骤，我只需要购买稳定币，就可以方便的在各个国家进行消费了。</p>
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>在网络上搜索”区块链 学习”会出现很多相关的文章，在 Github 上找到一个<a href="https://github.com/chaozh/awesome-blockchain-cn">收录区块链的仓库</a>。</p>
+<p>另外<a href="https://www.v2ex.com/go/blockchain">V2ex 的区块链板块</a>也有很多人在分享，<a href="https://www.v2ex.com/t/1072341#reply0">Web2 的开发者，如何进入 Web3</a></p>
+<!-- !链接 -->
+
+]]></content>
+      <categories>
+        <category>Web3</category>
+      </categories>
+      <tags>
+        <tag>Learning</tag>
+        <tag>Block Chain</tag>
+        <tag>Web3</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>虚拟币-初接触</title>
-    <url>/virtual_coin/</url>
+    <url>/virtual_coin_1/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为出国有了资金出境的想法，考量了很多方案，还是虚拟币比较适合我。所以简单了解下虚拟币。</p>
 <span id="more"></span>
 
@@ -63,11 +84,11 @@
 <h2 id="KYC"><a href="#KYC" class="headerlink" title="KYC"></a>KYC</h2><p>实名认证</p>
 ]]></content>
       <categories>
-        <category>Virtual Coins</category>
+        <category>Web3</category>
       </categories>
       <tags>
-        <tag>Virtual Coins</tag>
         <tag>Web3</tag>
+        <tag>Virtual Coins</tag>
       </tags>
   </entry>
   <entry>
