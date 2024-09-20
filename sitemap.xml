@@ -2,33 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zywj0han9.github.io/Warframe/</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zywj0han9.github.io/about/index.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zywj0han9.github.io/categories/index.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zywj0han9.github.io/schedule/index.html</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -39,6 +12,15 @@
   
   <url>
     <loc>https://zywj0han9.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/virtual_coin/</loc>
     
     <lastmod>2024-09-20</lastmod>
     
@@ -65,6 +47,15 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/Warframe/</loc>
+    
+    <lastmod>2024-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/KRLife1/</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -83,6 +74,33 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/TODO/</loc>
+    
+    <lastmod>2024-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/about/index.html</loc>
+    
+    <lastmod>2024-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/HomeServer/</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -93,15 +111,6 @@
   
   <url>
     <loc>https://zywj0han9.github.io/Archinstall/</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zywj0han9.github.io/TODO/</loc>
     
     <lastmod>2024-09-20</lastmod>
     
@@ -276,6 +285,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Virtual-Coins/</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Web3/</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -322,6 +345,13 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/ToGamepik/</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/Virtual-Coins/</loc>
     <lastmod>2024-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
