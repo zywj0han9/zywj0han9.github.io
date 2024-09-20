@@ -4,12 +4,12 @@ Allow: /archives/
 Allow: /tags/
 Allow: /categories/
 Allow: /about/
-Allow: /404/
 
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendor/
 Disallow: /styles/
+Disallow: /404/
 Disallow: /
 Sitemap: https://blog.zywj0han9.win/sitemap/sitemap.xml
