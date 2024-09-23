@@ -289,7 +289,7 @@
 <li><input disabled="" type="checkbox"> 密丸</li>
 <li><input disabled="" type="checkbox"> 德塔特</li>
 <li><input disabled="" type="checkbox"> 恶狼战锤</li>
-<li><input disabled="" type="checkbox"> 拉比威</li>
+<li><input checked="" disabled="" type="checkbox"> 拉比威</li>
 <li><input disabled="" type="checkbox"> 星舟 &amp; 帆</li>
 <li><input disabled="" type="checkbox"> 普罗沃·破坏者</li>
 <li><input disabled="" type="checkbox"> 暮斩</li>
