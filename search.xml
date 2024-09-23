@@ -2,6 +2,47 @@
 <search>
   <entry>
     <title>欧易-初接触</title>
+    <url>/Office365E5/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>申请 Office 365 e5 开发者订阅， 白嫖 Office 365 ，OneDrive 5T * 25。</p>
+<span id="more"></span>
+
+<h2 id="Office-E5"><a href="#Office-E5" class="headerlink" title="Office E5"></a>Office E5</h2><p>Office E5 是 Microsoft 针对开发者开放的版本，可以免费申请，免费使用 Office 365。对于我这种不白嫖 毋宁死的人来说，这可是能每年省下购买家庭版（498元）的钱去升级自己的 Home Lab。</p>
+<h2 id="权限"><a href="#权限" class="headerlink" title="权限"></a>权限</h2><ul>
+<li><ol>
+<li>25个账户</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>每个账户可用5台设备</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>Azure API 调用权限</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>每个账户 Onedrive 5T</li>
+</ol>
+</li>
+</ul>
+<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>白嫖，白嫖还是白嫖，优点有这个就足够了，不是吗？</p>
+<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>这个订阅是需要一直使用的，如果不经常使用会导致续订失败。因此有万能的网友开发软件调用 Azure API 保活，续订。如果你更换电脑然后把这件事忘记了，就GG。</p>
+<h2 id="续订软件"><a href="#续订软件" class="headerlink" title="续订软件"></a>续订软件</h2><p>我是用的续订软件是 <a href="https://e5renew.com/">Microsoft 365 E5 Renew Plus</a>。</p>
+<h2 id="有效期"><a href="#有效期" class="headerlink" title="有效期"></a>有效期</h2><p>目前我已经使用了2年多了，很稳。</p>
+<!-- !链接 -->
+]]></content>
+      <categories>
+        <category>Web3</category>
+      </categories>
+      <tags>
+        <tag>Learning</tag>
+        <tag>Block Chain</tag>
+        <tag>Web3</tag>
+        <tag>OKX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欧易-初接触</title>
     <url>/OKX_1/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>今天第一次尝试使用虚拟币交易所，简单记录下</p>
 <span id="more"></span>
