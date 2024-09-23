@@ -246,7 +246,7 @@
 <li><input checked="" disabled="" type="checkbox"> 葬铭 Prime</li>
 <li><input disabled="" type="checkbox"> 信条·冷冻步枪</li>
 <li><input disabled="" type="checkbox"> 信条·铁晶磁轨炮</li>
-<li><input disabled="" type="checkbox"> 凤殁</li>
+<li><input checked="" disabled="" type="checkbox"> 凤殁</li>
 <li><input disabled="" type="checkbox"> 勇气·海克</li>
 <li><input disabled="" type="checkbox"> 塞多</li>
 <li><input disabled="" type="checkbox"> 绯红·潘塔</li>
@@ -258,9 +258,9 @@
 <li><input disabled="" type="checkbox"> 终极·螺钉步枪</li>
 <li><input disabled="" type="checkbox"> 赤毒·卡拉克</li>
 <li><input disabled="" type="checkbox"> 赤毒·鳄神</li>
-<li><input disabled="" type="checkbox"> 逐枭</li>
+<li><input checked="" disabled="" type="checkbox"> 逐枭</li>
 <li><input disabled="" type="checkbox"> 遂心</li>
-<li><input disabled="" type="checkbox"> 重力奇点枪</li>
+<li><input checked="" disabled="" type="checkbox"> 重力奇点枪</li>
 <li><input disabled="" type="checkbox"> 锐铁</li>
 <li><input disabled="" type="checkbox"> 凤鸣</li>
 <li><input disabled="" type="checkbox"> 骨葬 Prime</li>
