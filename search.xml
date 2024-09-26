@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hidden test</title>
-    <url>/testhidden/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Apple IDs 系统准备</title>
     <url>/AppleIDsystem/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>记录Apple IDs 组建高性价比，花最少的钱，获得最大的服务。</p>
@@ -25,7 +20,7 @@
 </ol>
 </li>
 </ul>
-<h3 id="土耳其身份信息"><a href="#土耳其身份信息" class="headerlink" title="土耳其身份信息"></a>土耳其身份信息</h3><p>下面的是我用的，留作备忘记录。自己使用请生成新的信息。<br><a href="https://www.meiguodizhi.com/tr-address">土耳其身份信息生成</a></p>
+<h3 id="土耳其身份信息"><a href="#土耳其身份信息" class="headerlink" title="土耳其身份信息"></a>土耳其身份信息</h3><p>下面的是我用的，留作备忘记录。自己使用请生成新的信息。<br><span class="exturl" data-url="aHR0cHM6Ly93d3cubWVpZ3VvZGl6aGkuY29tL3RyLWFkZHJlc3M=">土耳其身份信息生成<i class="fa fa-external-link-alt"></i></span></p>
 <ul>
 <li>基本资料<ul>
 <li>全名：Santa La</li>
@@ -36,7 +31,7 @@
 <li>城市：Ankara</li>
 <li>邮编：06600</li>
 <li>电话号码：+90 312 275 79 66</li>
-<li>临时邮箱：<a href="mailto:&#x64;&#x7a;&#113;&#x62;&#x69;&#x67;&#111;&#x66;&#122;&#x73;&#64;&#105;&#117;&#98;&#x72;&#x69;&#100;&#x67;&#101;&#46;&#x63;&#111;&#109;">dzqbigofzs@iubridge.com</a></li>
+<li>临时邮箱：<span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjeDdhOyYjeDcxOyYjOTg7JiMxMDU7JiN4Njc7JiN4NmY7JiMxMDI7JiMxMjI7JiN4NzM7JiN4NDA7JiN4Njk7JiN4NzU7JiM5ODsmIzExNDsmI3g2OTsmIzEwMDsmIzEwMzsmI3g2NTsmIzQ2OyYjeDYzOyYjMTExOyYjMTA5Ow==">dzqbigofzs@iubridge.com<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
 </li>
 <li>就业 &amp; 信用卡<ul>
@@ -68,7 +63,7 @@
 </ul>
 <h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h3><p>我先在Apple icloud 登录页面进行注册，然后选择国家：土耳其，电话：google Voice，邮箱：使用的是自建的邮箱，一路到底，注册就完成了。</p>
 <h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><p>使用自己的iPhone 15 Pro 登录这个账户正常登录，然后在Apple Store 上正常显示了国家为土耳其。在随便找一个软件进行购买时，提示我的账户没有itunes，将信息填入，完成注册。</p>
-<h3 id="付款"><a href="#付款" class="headerlink" title="付款"></a>付款</h3><p>使用礼品卡进行订阅，购买网址：<a href="https://www.mtcgame.com/">MTCGAME</a> 还有别的网站也能购买但是门槛比较高，这个手续费贵点但是国内能正常购买。</p>
+<h3 id="付款"><a href="#付款" class="headerlink" title="付款"></a>付款</h3><p>使用礼品卡进行订阅，购买网址：<span class="exturl" data-url="aHR0cHM6Ly93d3cubXRjZ2FtZS5jb20v">MTCGAME<i class="fa fa-external-link-alt"></i></span> 还有别的网站也能购买但是门槛比较高，这个手续费贵点但是国内能正常购买。</p>
 <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>因为没有付款信息，所以无法共享软件。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>因为肉身再韩国，没开代理，使用韩国IP可以正常注册，没有什么问题。但是可用时间有待考证，等过段时间再测试。</p>
 ]]></content>
@@ -120,7 +115,7 @@
 </ul>
 <h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>白嫖，白嫖还是白嫖，优点有这个就足够了，不是吗？</p>
 <h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>这个订阅是需要一直使用的，如果不经常使用会导致续订失败。因此有万能的网友开发软件调用 Azure API 保活，续订。如果你更换电脑然后把这件事忘记了，就GG。</p>
-<h2 id="续订软件"><a href="#续订软件" class="headerlink" title="续订软件"></a>续订软件</h2><p>我是用的续订软件是 <a href="https://e5renew.com/">Microsoft 365 E5 Renew Plus</a>。</p>
+<h2 id="续订软件"><a href="#续订软件" class="headerlink" title="续订软件"></a>续订软件</h2><p>我是用的续订软件是 <span class="exturl" data-url="aHR0cHM6Ly9lNXJlbmV3LmNvbS8=">Microsoft 365 E5 Renew Plus<i class="fa fa-external-link-alt"></i></span>。</p>
 <h2 id="有效期"><a href="#有效期" class="headerlink" title="有效期"></a>有效期</h2><p>目前我已经使用了2年多了，很稳。</p>
 <!-- !链接 -->
 ]]></content>
@@ -242,8 +237,8 @@
 <span id="more"></span>
 
 <p>想学习区块链的想法是在我出国之后出现的，一方面是在国内这是不被允许的，另一方面在国外不太想天天坐班，毕竟我为了在家能舒服的玩电脑，下很大心思做桌子，买椅子。在网上查询到 Web3 行业上班是有全远程工作的。而且我还想经常在国外旅游，现在一些国家 USDT 甚至可以当法币进行交易，这简化了我往返国内外的换汇步骤，我只需要购买稳定币，就可以方便的在各个国家进行消费了。</p>
-<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>在网络上搜索”区块链 学习”会出现很多相关的文章，在 Github 上找到一个<a href="https://github.com/chaozh/awesome-blockchain-cn">收录区块链的仓库</a>。</p>
-<p>另外<a href="https://www.v2ex.com/go/blockchain">V2ex 的区块链板块</a>也有很多人在分享，<a href="https://www.v2ex.com/t/1072341#reply0">Web2 的开发者，如何进入 Web3</a></p>
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>在网络上搜索”区块链 学习”会出现很多相关的文章，在 Github 上找到一个<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2NoYW96aC9hd2Vzb21lLWJsb2NrY2hhaW4tY24=">收录区块链的仓库<i class="fa fa-external-link-alt"></i></span>。</p>
+<p>另外<span class="exturl" data-url="aHR0cHM6Ly93d3cudjJleC5jb20vZ28vYmxvY2tjaGFpbg==">V2ex 的区块链板块<i class="fa fa-external-link-alt"></i></span>也有很多人在分享，<span class="exturl" data-url="aHR0cHM6Ly93d3cudjJleC5jb20vdC8xMDcyMzQxI3JlcGx5MA==">Web2 的开发者，如何进入 Web3<i class="fa fa-external-link-alt"></i></span></p>
 <!-- !链接 -->
 
 ]]></content>
@@ -262,7 +257,7 @@
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为出国有了资金出境的想法，考量了很多方案，还是虚拟币比较适合我。所以简单了解下虚拟币。</p>
 <span id="more"></span>
 
-<h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>安全，安全还是 TM 的安全。<font color="red">安全</font>是一切的基础，所以在学习虚拟币之前，先了解如何保护自己的安全，保护钱包的安全是重中之重。根据 V2 网友的评论看到了这篇<a href="https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md">区块链黑暗森林自救手册</a>。我将这篇文章的链接放在参考里面了。这篇文章足以给我这种初次接触区块链的小白进行安全启蒙了。</p>
+<h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>安全，安全还是 TM 的安全。<font color="red">安全</font>是一切的基础，所以在学习虚拟币之前，先了解如何保护自己的安全，保护钱包的安全是重中之重。根据 V2 网友的评论看到了这篇<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3Nsb3dtaXN0L0Jsb2NrY2hhaW4tZGFyay1mb3Jlc3Qtc2VsZmd1YXJkLWhhbmRib29rL2Jsb2IvbWFpbi9SRUFETUVfQ04ubWQ=">区块链黑暗森林自救手册<i class="fa fa-external-link-alt"></i></span>。我将这篇文章的链接放在参考里面了。这篇文章足以给我这种初次接触区块链的小白进行安全启蒙了。</p>
 <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
 <li><ol start="0">
 <li>密码：每个账户的密码都完全不同。防止丢一个 ≈ 全丢。</li>
@@ -273,7 +268,7 @@
 </ol>
 </li>
 <li><ol start="2">
-<li>网络：出门在外不要随便连接未知的网络，尽量使用手机流量开热点，除非急用。我的方案是使用一个电池容量大的国产 Android 手机插上流量卡开热点，解决出门网络。同时这个手机全部是国内使用的软件 eg: 微信，银行软件，支付宝，QQ ，淘宝，京东等；使用非国行 iPhone 作为出国使用，手机上使用 Telegram，Onedrive 等国外软件；两个手机互通<a href="https://github.com/SharzyL/pastebin-worker">使用 Cloudflare 搭建的文件共享</a>。</li>
+<li>网络：出门在外不要随便连接未知的网络，尽量使用手机流量开热点，除非急用。我的方案是使用一个电池容量大的国产 Android 手机插上流量卡开热点，解决出门网络。同时这个手机全部是国内使用的软件 eg: 微信，银行软件，支付宝，QQ ，淘宝，京东等；使用非国行 iPhone 作为出国使用，手机上使用 Telegram，Onedrive 等国外软件；两个手机互通<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NoYXJ6eUwvcGFzdGViaW4td29ya2Vy">使用 Cloudflare 搭建的文件共享<i class="fa fa-external-link-alt"></i></span>。</li>
 </ol>
 </li>
 <li><ol start="3">
@@ -297,11 +292,11 @@
 </ol>
 </li>
 <li><ol start="8">
-<li>双因素认证：目前使用选择开源的<a href="https://ente.io/auth/">Ente Auth</a>，后续打算等服务器到韩国时使用<a href="https://docs.2fauth.app/">2FA</a>+ <a href="https://cloudflare.com/">Cloudflare</a></li>
+<li>双因素认证：目前使用选择开源的<span class="exturl" data-url="aHR0cHM6Ly9lbnRlLmlvL2F1dGgv">Ente Auth<i class="fa fa-external-link-alt"></i></span>，后续打算等服务器到韩国时使用<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLjJmYXV0aC5hcHAv">2FA<i class="fa fa-external-link-alt"></i></span>+ <span class="exturl" data-url="aHR0cHM6Ly9jbG91ZGZsYXJlLmNvbS8=">Cloudflare<i class="fa fa-external-link-alt"></i></span></li>
 </ol>
 </li>
 <li><ol start="9">
-<li>邮箱：使用 <a href="https://github.com/dreamhunter2333/cloudflare_temp_email">cloudflare workers + Cloudflare pages 搭建的临时邮箱</a>临时使用，gmail 作为主力使用，后续打算搭建一个自己的 mail 服务器。</li>
+<li>邮箱：使用 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RyZWFtaHVudGVyMjMzMy9jbG91ZGZsYXJlX3RlbXBfZW1haWw=">cloudflare workers + Cloudflare pages 搭建的临时邮箱<i class="fa fa-external-link-alt"></i></span>临时使用，gmail 作为主力使用，后续打算搭建一个自己的 mail 服务器。</li>
 </ol>
 </li>
 <li><ol start="10">
@@ -313,7 +308,7 @@
 </ol>
 </li>
 </ul>
-<h2 id="入金"><a href="#入金" class="headerlink" title="入金"></a>入金</h2><p>一般主流选择交易所购买<a href="https://www.binance.com/">币安</a> <a href="https://www.okx.com/">欧易</a>，在交易时使用稳定币 eg: USDT 或法币 eg: RMB，交易所为交易提供担保。这样就完成了法币<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2194" d="M263 479Q267 501 271 506T288 511Q308 511 308 500Q308 493 303 475Q293 438 278 406T246 352T215 315T185 287T165 270H835Q729 349 696 475Q691 493 691 500Q691 511 711 511Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H165Q167 228 182 216T211 189T244 152T277 96T303 25Q308 7 308 0Q308 -11 288 -11Q281 -11 278 -11T272 -7T267 2T263 21Q245 94 195 151T73 236Q58 242 55 247Q55 254 59 257T73 264Q144 292 194 349T263 479Z"></path></g></g></g></svg></mjx-container>虚拟币，所以流程大体上为：</p>
+<h2 id="入金"><a href="#入金" class="headerlink" title="入金"></a>入金</h2><p>一般主流选择交易所购买<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmluYW5jZS5jb20v">币安<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cub2t4LmNvbS8=">欧易<i class="fa fa-external-link-alt"></i></span>，在交易时使用稳定币 eg: USDT 或法币 eg: RMB，交易所为交易提供担保。这样就完成了法币<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2194" d="M263 479Q267 501 271 506T288 511Q308 511 308 500Q308 493 303 475Q293 438 278 406T246 352T215 315T185 287T165 270H835Q729 349 696 475Q691 493 691 500Q691 511 711 511Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H165Q167 228 182 216T211 189T244 152T277 96T303 25Q308 7 308 0Q308 -11 288 -11Q281 -11 278 -11T272 -7T267 2T263 21Q245 94 195 151T73 236Q58 242 55 247Q55 254 59 257T73 264Q144 292 194 349T263 479Z"></path></g></g></g></svg></mjx-container>虚拟币，所以流程大体上为：</p>
 <p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/VCoin.png" alt="交易流程"></p>
 <h2 id="出金"><a href="#出金" class="headerlink" title="出金"></a>出金</h2><p>除了通过交易所完成法币和虚拟币的转换，还有一种方式就是使用 U 卡。这种方式就可以在国内进行刷卡付费。将虚拟货币（包括但不限于 USDT）从钱包地址发送到万事达卡的链上地址，用户可以直接使用该卡刷卡消费，也可以直接在 ATM 机从该卡中提现为法币。使用 U 卡会有开卡费，转入费(充 U 费)，月费，提现费等。</p>
 <h2 id="KYC"><a href="#KYC" class="headerlink" title="KYC"></a>KYC</h2><p>实名认证</p>
@@ -406,8 +401,8 @@
 </tr>
 </thead>
 <tbody><tr>
-<td align="center"><a href="https://www.topik.go.kr/">报名</a></td>
-<td align="center"><a href="https://topik-main.neea.cn/html1/folder/1509/1174-1.htm">报名</a></td>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cudG9waWsuZ28ua3Iv">报名<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly90b3Bpay1tYWluLm5lZWEuY24vaHRtbDEvZm9sZGVyLzE1MDkvMTE3NC0xLmh0bQ==">报名<i class="fa fa-external-link-alt"></i></span></td>
 </tr>
 </tbody></table>
 <h2 id="报名费用"><a href="#报名费用" class="headerlink" title="报名费用"></a>报名费用</h2><table>
@@ -552,7 +547,7 @@
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为一些原因，我的家庭全部来到了韩国打工，因此想记录一下自己在韩国的生活。</p>
 <span id="more"></span>
 
-<h2 id="韩国的网络"><a href="#韩国的网络" class="headerlink" title="韩国的网络"></a>韩国的网络</h2><p>今天，我去了一趟韩国 <a href="https://kt.com">KT</a> 通信社，询问下关于韩国网络办理等事情。在韩国手机的资费是非常贵的，每个月都要几百 RMB。韩国通讯社曾经有过家庭套餐，eg：一家人办理，会有赠送宽带。现在是都要收费了。</p>
+<h2 id="韩国的网络"><a href="#韩国的网络" class="headerlink" title="韩国的网络"></a>韩国的网络</h2><p>今天，我去了一趟韩国 <span class="exturl" data-url="aHR0cHM6Ly9rdC5jb20=">KT<i class="fa fa-external-link-alt"></i></span> 通信社，询问下关于韩国网络办理等事情。在韩国手机的资费是非常贵的，每个月都要几百 RMB。韩国通讯社曾经有过家庭套餐，eg：一家人办理，会有赠送宽带。现在是都要收费了。</p>
 <p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/KR_KT_home_Network.png" alt="KT_资费"></p>
 <p>我在官网上查询到，如果当天使用的流量过多，会导致当天降带宽。目前不清楚是否计算上传流量。</p>
 <p>我打算办理 1000M 带宽的网络外加 3 个 5G 移动套餐：3 个 5G 移动套餐(不限速流量 110G，超出时限速到 5Mphs≈400K/s，通话与短信没有限制)₩43000 * 3；一个 1000M 宽带 ₩27500；真的好贵啊，还不清楚韩国的 5G 速率是什么样的。不清楚 PCDN 是否合法。</p>
@@ -776,12 +771,12 @@
 <li><input disabled="" type="checkbox"> <font color="gray">开发环境 安装配置 文档编写</font></li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li>[1] <a href="https://zh.wikipedia.org/wiki/VMware_ESXi">Wiki ESXI</a></li>
-<li>[2] <a href="https://zh.wikipedia.org/wiki/Proxmox_Virtual_Environment">Wiki PVE</a></li>
-<li>[3] <a href="https://v2ex.com/">V2ex</a></li>
-<li>[4] <a href="https://bitwarden.com/help/">Bitwarden</a></li>
-<li>[5] <a href="https://docs.docker.com/engine/install/">Docker</a></li>
-<li>[6] <a href="https://docs.docker.com/compose/install/">Docker Compose</a></li>
+<li>[1] <span class="exturl" data-url="aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvVk13YXJlX0VTWGk=">Wiki ESXI<i class="fa fa-external-link-alt"></i></span></li>
+<li>[2] <span class="exturl" data-url="aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvUHJveG1veF9WaXJ0dWFsX0Vudmlyb25tZW50">Wiki PVE<i class="fa fa-external-link-alt"></i></span></li>
+<li>[3] <span class="exturl" data-url="aHR0cHM6Ly92MmV4LmNvbS8=">V2ex<i class="fa fa-external-link-alt"></i></span></li>
+<li>[4] <span class="exturl" data-url="aHR0cHM6Ly9iaXR3YXJkZW4uY29tL2hlbHAv">Bitwarden<i class="fa fa-external-link-alt"></i></span></li>
+<li>[5] <span class="exturl" data-url="aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vZW5naW5lL2luc3RhbGwv">Docker<i class="fa fa-external-link-alt"></i></span></li>
+<li>[6] <span class="exturl" data-url="aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vY29tcG9zZS9pbnN0YWxsLw==">Docker Compose<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
 ]]></content>
       <categories>
@@ -846,8 +841,8 @@
 </li>
 <li><p>系统工具：</p>
 <ul>
-<li>neofetch：系统信息查看，<a href="https://github.com/dylanaraps/neofetch">github</a></li>
-<li>btop&#x2F;htop：资源监视器，<a href="https://github.com/aristocratos/btop">github</a></li>
+<li>neofetch：系统信息查看，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2R5bGFuYXJhcHMvbmVvZmV0Y2g=">github<i class="fa fa-external-link-alt"></i></span></li>
+<li>btop&#x2F;htop：资源监视器，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FyaXN0b2NyYXRvcy9idG9w">github<i class="fa fa-external-link-alt"></i></span></li>
 <li>gparted：磁盘管理，分区管理</li>
 </ul>
 </li>
@@ -859,7 +854,7 @@
 </li>
 <li><p>美化：</p>
 <ul>
-<li>Variety：壁纸，搭配<a href="https://wallhaven.cc/">壁纸网站</a>使用。</li>
+<li>Variety：壁纸，搭配<span class="exturl" data-url="aHR0cHM6Ly93YWxsaGF2ZW4uY2Mv">壁纸网站<i class="fa fa-external-link-alt"></i></span>使用。</li>
 <li>KDE 设置里面有主题设置~~~已经不喜欢类 MacOS 的主题了~~~</li>
 </ul>
 </li>
@@ -869,8 +864,8 @@
 <li><strong><font color="red">Arch Linux 在更新前建议充分了解更新事项，做好系统备份，防止重要数据丢失</font></strong></li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li>[1] <a href="https://archlinux.org/">Arch Linux Wiki</a></li>
-<li>[2] <a href="https://archlinuxstudio.github.io/ArchLinuxTutorial/#/">Arch Linux 安装指南</a></li>
+<li>[1] <span class="exturl" data-url="aHR0cHM6Ly9hcmNobGludXgub3JnLw==">Arch Linux Wiki<i class="fa fa-external-link-alt"></i></span></li>
+<li>[2] <span class="exturl" data-url="aHR0cHM6Ly9hcmNobGludXhzdHVkaW8uZ2l0aHViLmlvL0FyY2hMaW51eFR1dG9yaWFsLyMv">Arch Linux 安装指南<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
 ]]></content>
       <categories>
@@ -1055,9 +1050,9 @@
 <ul>
 <li><ol>
 <li>向 Github 仓库中添加 3 个变量 <kbd>CF_TOKEN</kbd><kbd>CF_ID</kbd><kbd>CF_NAME</kbd><br>这三个变量来源分别为：<ul>
-<li>CF_ID: 在访问<a href="https://dash.cloudflare.com/">cloudflare</a>时，浏览器网址栏形如：<a href="https://dash.cloudflare.com/******%E3%80%82%E5%85%B6%E4%B8%AD**/*/">https://dash.cloudflare.com/******。其中**\*\</a>*** 就是你的 ID。<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_ID.png" alt="CF_ID"></li>
+<li>CF_ID: 在访问<span class="exturl" data-url="aHR0cHM6Ly9kYXNoLmNsb3VkZmxhcmUuY29tLw==">cloudflare<i class="fa fa-external-link-alt"></i></span>时，浏览器网址栏形如：<span class="exturl" data-url="aHR0cHM6Ly9kYXNoLmNsb3VkZmxhcmUuY29tLyoqKioqKiVFMyU4MCU4MiVFNSU4NSVCNiVFNCVCOCVBRCoqLyov">https://dash.cloudflare.com/******。其中**\*\<i class="fa fa-external-link-alt"></i></span>*** 就是你的 ID。<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_ID.png" alt="CF_ID"></li>
 <li>CF_TOKEN: 登录成功后，在<kbd>个人资料</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>API 令牌</kbd><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container><kbd>创建令牌</kbd>中创建一个拥有 Cloud flare Pages 编辑权限的 Token。<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_TOKEN1.png" alt="CF_TOKEN"><br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_TOKEN2.png" alt="CF_TOKEN"><br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_TOKEN3.png" alt="CF_TOKEN"></li>
-<li>CF_NAME: <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> 进入 Cloud flare Pages 页面创建一个 Pages 项目<br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME1.png" alt="CF_NAME"><br> 选择上传资产<br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME2.png" alt="CF_NAME"><br> 输入项目名，这个就是 CF_NAME<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME3.png" alt="CF_NAME"><br>这时，Cloud flare 已经将 Pages 项目创建好了。已经可以接受 Github actions push 代码过来显示了。</li>
+<li>CF_NAME: <span class="exturl" data-url="aHR0cHM6Ly9wYWdlcy5jbG91ZGZsYXJlLmNvbS8=">Cloudflare Pages<i class="fa fa-external-link-alt"></i></span> 进入 Cloud flare Pages 页面创建一个 Pages 项目<br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME1.png" alt="CF_NAME"><br> 选择上传资产<br> <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME2.png" alt="CF_NAME"><br> 输入项目名，这个就是 CF_NAME<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME3.png" alt="CF_NAME"><br>这时，Cloud flare 已经将 Pages 项目创建好了。已经可以接受 Github actions push 代码过来显示了。</li>
 </ul>
 </li>
 </ol>

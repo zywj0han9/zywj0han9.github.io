@@ -12,4 +12,6 @@ Disallow: /vendor/
 Disallow: /styles/
 Disallow: /404/
 Disallow: /
+Disallow: /nsfw/
+
 Sitemap: https://blog.zywj0han9.win/sitemap/sitemap.xml
