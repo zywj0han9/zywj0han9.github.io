@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zywj0han9.github.io/schedule/index.html</loc>
+    
+    <lastmod>2024-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/tags/index.html</loc>
     
     <lastmod>2024-09-26</lastmod>
@@ -137,6 +146,15 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/hexo/</loc>
+    
+    <lastmod>2024-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/CFPages/</loc>
     
     <lastmod>2024-09-26</lastmod>
@@ -156,15 +174,6 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/index.html</loc>
-    
-    <lastmod>2024-09-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zywj0han9.github.io/schedule/index.html</loc>
     
     <lastmod>2024-09-26</lastmod>
     
@@ -387,6 +396,34 @@
   </url>
   
   <url>
+    <loc>https://zywj0han9.github.io/tags/Cloudflare-Pages/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Hexo/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Blog/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/tags/Deploy/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zywj0han9.github.io/tags/Virtual-Coins/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -453,6 +490,13 @@
   
   <url>
     <loc>https://zywj0han9.github.io/categories/ToGamepik/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zywj0han9.github.io/categories/Blog/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

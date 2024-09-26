@@ -31,7 +31,7 @@
 <li>城市：Ankara</li>
 <li>邮编：06600</li>
 <li>电话号码：+90 312 275 79 66</li>
-<li>临时邮箱：<a href="mailto:&#x64;&#x7a;&#113;&#98;&#105;&#x67;&#111;&#102;&#122;&#115;&#64;&#x69;&#117;&#98;&#114;&#x69;&#100;&#103;&#x65;&#x2e;&#x63;&#111;&#x6d;">dzqbigofzs@iubridge.com</a></li>
+<li>临时邮箱：<a href="mailto:&#100;&#122;&#113;&#x62;&#x69;&#103;&#111;&#102;&#x7a;&#115;&#x40;&#105;&#x75;&#98;&#x72;&#105;&#x64;&#x67;&#101;&#x2e;&#99;&#111;&#109;">dzqbigofzs@iubridge.com</a></li>
 </ul>
 </li>
 <li>就业 &amp; 信用卡<ul>
@@ -898,6 +898,96 @@
       </categories>
       <tags>
         <tag>TODO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/hexo/</url>
+    <content><![CDATA[<h1 id="Blog-部署"><a href="#Blog-部署" class="headerlink" title="Blog 部署"></a>Blog 部署</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>由 Github 托管 Blog 代码，并使用 Github Actions 向 GitHub Pages 和 Cloudflare Pages 推送，做到私有代码库，公网访问。</p>
+<span id="more"></span>
+
+<h2 id="博客框架选择"><a href="#博客框架选择" class="headerlink" title="博客框架选择"></a>博客框架选择</h2><p>因为使用 Gihtub Pages 和 Cloudflare Pages 所以选选择了hexo 来搭建 blog。</p>
+<h2 id="工作流程"><a href="#工作流程" class="headerlink" title="工作流程"></a>工作流程</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TB</span><br><span class="line">A(本地代码库)---&gt;|链接|B(远程代码库【私有】)</span><br><span class="line">C(用户)---&gt;|编写,生成|A</span><br><span class="line">B---&gt;|推送|D(Github Pages【公有】)</span><br><span class="line">B---&gt;|推送|E(Cloudflare Pages【公有】)</span><br></pre></td></tr></table></figure>
+
+<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>使用的是 windows 电脑</p>
+<ul>
+<li><ol>
+<li>Hexo.exe</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>git</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>Cloudflare 账户和域名</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>VsCode</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>npm</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>yarn</li>
+</ol>
+</li>
+</ul>
+<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><ul>
+<li><ol>
+<li>在 Github 上创建2个仓库：<ul>
+<li>remote-blog</li>
+<li>xxx.github.io</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>将remote-blog 仓库 git clone 到本地。</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>打开 Powershell，将工作路径定到remote-blog，输入  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\xxx\hexo.exe init</span><br></pre></td></tr></table></figure>
+将仓库初始化，后面再调用hexo.exe 将写为hexo。</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>输入<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo npm install --save</span><br></pre></td></tr></table></figure>
+使用 npm 下载相关组件</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>创建<kbd>remote-blog/.github/workflows/xxx.yml</kbd>文件，用来调用 Github Actions 自动化部署</li>
+</ol>
+</li>
+<li>6. <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name: Pages</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main # default branch</span><br><span class="line">jobs:</span><br><span class="line">  build:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">      - name: Check Out</span><br><span class="line">        uses: actions/checkout@v4</span><br><span class="line">        with:</span><br><span class="line">          token: ${{ secrets.BLOG_TOKEN }}</span><br><span class="line">          # If your repository depends on submodule, please see: https://github.com/actions/checkout</span><br><span class="line"></span><br><span class="line">      - name: Use Node.js 20</span><br><span class="line">        uses: actions/setup-node@v4</span><br><span class="line">        with:</span><br><span class="line">          # Examples: 20, 18.19, &gt;=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node</span><br><span class="line">          # Ref: https://github.com/actions/setup-node#supported-version-syntax</span><br><span class="line">          node-version: "20"</span><br><span class="line"></span><br><span class="line">      - name: Cache NPM dependencies</span><br><span class="line">        uses: actions/cache@v4</span><br><span class="line">        with:</span><br><span class="line">          path: node_modules</span><br><span class="line">          key: ${{ runner.OS }}-npm-cache</span><br><span class="line">          restore-keys: |</span><br><span class="line">            ${{ runner.OS }}-npm-cache</span><br><span class="line"></span><br><span class="line">      - name: Install Dependencies</span><br><span class="line">        run: npm install</span><br><span class="line"></span><br><span class="line">      - name: Build</span><br><span class="line">        run: npm run build</span><br><span class="line"></span><br><span class="line">      - name: Upload Pages artifact</span><br><span class="line">        uses: actions/upload-pages-artifact@v3</span><br><span class="line">        with:</span><br><span class="line">          path: ./public</span><br><span class="line"></span><br><span class="line">      - name: Deploy to GitHub Pages</span><br><span class="line">        uses: peaceiris/actions-gh-pages@v3</span><br><span class="line">        with:</span><br><span class="line">          personal_token: ${{ secrets.BLOG_TOKEN }}</span><br><span class="line">          publish_dir: ./public</span><br><span class="line">          external_repository: xxx/xxx.github.io # 更改为你的 GitHub Pages 仓库, username 是你的用户名</span><br><span class="line">          publish_branch: main # GitHub Pages 分支</span><br><span class="line">      - name: Deploy to Cloudflare Pages</span><br><span class="line">        uses: cloudflare/pages-action@v1</span><br><span class="line">        with:</span><br><span class="line">          apiToken: ${{ secrets.CF_TOKEN }}</span><br><span class="line">          accountId: ${{ secrets.CF_ID }}</span><br><span class="line">          projectName: ${{ secrets.CF_NAME }}</span><br><span class="line">          directory: ./public</span><br><span class="line">          wranglerVersion: "3"</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><ol start="7">
+<li>将修改 push 到 Github 上，此时应该能正常调用 Github Actions 但是因为缺少参数无法继续。<br>  [Blog_Token]:<br>  <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/Hexo_github_Blog_Token.png" alt="Blog_Token"><br><br>  在这里生成一个拥有权限的Token<br>  <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/Hexo_Github_Blog_Token_Scopes.png" alt="Token_scopes"><br>  [CF_ID]:<br>  <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_ID.png" alt="CF_ID"><br><br>  [CF_Name]:<br>  <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_NAME3.png" alt="CF_NAME"><br><br>  [CF_TOKEN]:<br>  <img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/CF_TOKEN3.png" alt="CF_TOKEN"></li>
+</ol>
+</li>
+</ul>
+<p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/Hexo_Github_sec.png" alt="Github 密钥修改位置"></p>
+<ul>
+<li><ol start="8">
+<li>到此基础 Hexo 博客已经搭建完成了。后续还可以对 Hexo 使用主题和插件等方便使用。</li>
+</ol>
+</li>
+</ul>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>因为使用的是 Github Actions 自动化部署，所以在本地驶入 git push 并回车就会触发 Gihub Actions 推送到 Github Pages 和 Cloudflare  Pages。</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Github Action</tag>
+        <tag>Github</tag>
+        <tag>Cloudflare Pages</tag>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+        <tag>Deploy</tag>
       </tags>
   </entry>
   <entry>
