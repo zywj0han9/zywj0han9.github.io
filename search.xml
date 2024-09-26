@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hidden test</title>
+    <url>/testhidden/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Apple IDs 系统准备</title>
     <url>/AppleIDsystem/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>记录Apple IDs 组建高性价比，花最少的钱，获得最大的服务。</p>
@@ -31,7 +36,7 @@
 <li>城市：Ankara</li>
 <li>邮编：06600</li>
 <li>电话号码：+90 312 275 79 66</li>
-<li>临时邮箱：<a href="mailto:&#x64;&#x7a;&#113;&#98;&#x69;&#103;&#x6f;&#x66;&#x7a;&#x73;&#x40;&#x69;&#x75;&#98;&#x72;&#105;&#100;&#103;&#101;&#x2e;&#99;&#111;&#x6d;">dzqbigofzs@iubridge.com</a></li>
+<li>临时邮箱：<a href="mailto:&#100;&#x7a;&#113;&#98;&#105;&#103;&#111;&#x66;&#x7a;&#x73;&#64;&#105;&#117;&#x62;&#x72;&#105;&#x64;&#x67;&#101;&#x2e;&#x63;&#111;&#x6d;">dzqbigofzs@iubridge.com</a></li>
 </ul>
 </li>
 <li>就业 &amp; 信用卡<ul>
@@ -71,9 +76,9 @@
         <category>Apple</category>
       </categories>
       <tags>
+        <tag>Learning</tag>
         <tag>Apple</tag>
         <tag>Apple ID</tag>
-        <tag>Learning</tag>
       </tags>
   </entry>
   <entry>
@@ -783,8 +788,8 @@
         <category>Home Server Center</category>
       </categories>
       <tags>
-        <tag>Learning</tag>
         <tag>Linux</tag>
+        <tag>Learning</tag>
         <tag>Server</tag>
         <tag>Docker</tag>
         <tag>Home Server Center</tag>
@@ -872,9 +877,9 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>Learning</tag>
         <tag>Arch linux</tag>
         <tag>Linux</tag>
+        <tag>Learning</tag>
         <tag>System</tag>
       </tags>
   </entry>
