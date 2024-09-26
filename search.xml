@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Apple IDs 系统准备</title>
+    <url>/AppleIDsystem/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>记录Apple IDs 组建高性价比，花最少的钱，获得最大的服务。</p>
+<span id="more"></span>
+
+<h2 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h2><ul>
+<li><ol>
+<li>美区 Apple ID (主力)</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>国区 Apple ID (下载国内软件)</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>土区 Apple ID (订阅，付费)</li>
+</ol>
+</li>
+</ul>
+<h3 id="土耳其身份信息"><a href="#土耳其身份信息" class="headerlink" title="土耳其身份信息"></a>土耳其身份信息</h3><p>下面的是我用的，留作备忘记录。自己使用请生成新的信息。<br><a href="https://www.meiguodizhi.com/tr-address">土耳其身份信息生成</a></p>
+<ul>
+<li>基本资料<ul>
+<li>全名：Santa La</li>
+<li>性别：Female</li>
+<li>生日：5/28/1979</li>
+<li>Title：Mrs.</li>
+<li>街道：Hacettepe, Talatpaşa Blv No:3, 06600 Altındağ/Ankara, Turkey</li>
+<li>城市：Ankara</li>
+<li>邮编：06600</li>
+<li>电话号码：+90 312 275 79 66</li>
+<li>临时邮箱：<a href="mailto:&#x64;&#x7a;&#113;&#98;&#105;&#x67;&#111;&#102;&#122;&#115;&#64;&#x69;&#117;&#98;&#114;&#x69;&#100;&#103;&#x65;&#x2e;&#x63;&#111;&#x6d;">dzqbigofzs@iubridge.com</a></li>
+</ul>
+</li>
+<li>就业 &amp; 信用卡<ul>
+<li>信用卡类型：Visa</li>
+<li>信用卡号：4485692195803408 CVV2 276</li>
+<li>过期时间：03/2028</li>
+<li>职业：Clinical Laboratory Technologist, Textile Cutting Machine Setter</li>
+<li>公司名称：无</li>
+<li>公司规模：无</li>
+<li>就业状态：Own business</li>
+<li>月薪：$9,400</li>
+</ul>
+</li>
+<li>更多资料：<ul>
+<li>用户名：reductionpuritanical</li>
+<li>密码：M2TLpZlGW9SX</li>
+<li>身高：6’ 4” (196cm)</li>
+<li>体重：240lbs (108.9kg)</li>
+<li>血型：A-</li>
+<li>操作系统：Mac OS</li>
+<li>GUID：d1141ccf-fed4-4eff-84f7-325419cf3e53</li>
+<li>浏览器useragent：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57</li>
+<li>教育背景：Doctorate</li>
+<li>个人主页：jbyxrkvtb.com</li>
+<li>安全问题：woarom moei da weetn?</li>
+<li>问题答案：festivalopen-ended</li>
+</ul>
+</li>
+</ul>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h3><p>我先在Apple icloud 登录页面进行注册，然后选择国家：土耳其，电话：google Voice，邮箱：使用的是自建的邮箱，一路到底，注册就完成了。</p>
+<h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><p>使用自己的iPhone 15 Pro 登录这个账户正常登录，然后在Apple Store 上正常显示了国家为土耳其。在随便找一个软件进行购买时，提示我的账户没有itunes，将信息填入，完成注册。</p>
+<h3 id="付款"><a href="#付款" class="headerlink" title="付款"></a>付款</h3><p>使用礼品卡进行订阅，购买网址：<a href="https://www.mtcgame.com/">MTCGAME</a> 还有别的网站也能购买但是门槛比较高，这个手续费贵点但是国内能正常购买。</p>
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>因为没有付款信息，所以无法共享软件。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>因为肉身再韩国，没开代理，使用韩国IP可以正常注册，没有什么问题。但是可用时间有待考证，等过段时间再测试。</p>
+]]></content>
+      <categories>
+        <category>Apple</category>
+      </categories>
+      <tags>
+        <tag>Apple</tag>
+        <tag>Apple ID</tag>
+        <tag>Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用 OpenSK 制作硬件密钥</title>
+    <url>/OpenSKmake/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Learning</tag>
+        <tag>System</tag>
+        <tag>Google</tag>
+        <tag>OpenSK</tag>
+        <tag>FIDO2</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Office 365 E5</title>
     <url>/Office365E5/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>申请 Office 365 e5 开发者订阅， 白嫖 Office 365 ，OneDrive 5T * 25。</p>
@@ -695,8 +783,8 @@
         <category>Home Server Center</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>Learning</tag>
+        <tag>Linux</tag>
         <tag>Server</tag>
         <tag>Docker</tag>
         <tag>Home Server Center</tag>
@@ -784,9 +872,9 @@
         <category>Linux</category>
       </categories>
       <tags>
+        <tag>Learning</tag>
         <tag>Arch linux</tag>
         <tag>Linux</tag>
-        <tag>Learning</tag>
         <tag>System</tag>
       </tags>
   </entry>
