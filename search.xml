@@ -31,7 +31,7 @@
 <li>城市：Ankara</li>
 <li>邮编：06600</li>
 <li>电话号码：+90 312 275 79 66</li>
-<li>临时邮箱：<span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTIyOyYjMTEzOyYjOTg7JiMxMDU7JiMxMDM7JiN4NmY7JiMxMDI7JiMxMjI7JiMxMTU7JiM2NDsmIzEwNTsmI3g3NTsmI3g2MjsmIzExNDsmIzEwNTsmI3g2NDsmIzEwMzsmIzEwMTsmI3gyZTsmIzk5OyYjMTExOyYjeDZkOw==">dzqbigofzs@iubridge.com<i class="fa fa-external-link-alt"></i></span></li>
+<li>临时邮箱：<span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTIyOyYjMTEzOyYjeDYyOyYjeDY5OyYjMTAzOyYjeDZmOyYjMTAyOyYjeDdhOyYjeDczOyYjeDQwOyYjeDY5OyYjeDc1OyYjeDYyOyYjMTE0OyYjeDY5OyYjMTAwOyYjeDY3OyYjeDY1OyYjNDY7JiM5OTsmI3g2ZjsmIzEwOTs=">dzqbigofzs@iubridge.com<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
 </li>
 <li>就业 &amp; 信用卡<ul>
@@ -74,18 +74,6 @@
         <tag>Apple</tag>
         <tag>Apple ID</tag>
         <tag>Learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用 OpenSK 制作硬件密钥</title>
-    <url>/OpenSKmake/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Learning</tag>
-        <tag>System</tag>
-        <tag>Google</tag>
-        <tag>OpenSK</tag>
-        <tag>FIDO2</tag>
       </tags>
   </entry>
   <entry>
@@ -231,27 +219,6 @@
       </tags>
   </entry>
   <entry>
-    <title>区块链-初接触</title>
-    <url>/BlockChain_1/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>初次接触区块链，学习区块链的路线和网站记录。</p>
-<span id="more"></span>
-
-<p>想学习区块链的想法是在我出国之后出现的，一方面是在国内这是不被允许的，另一方面在国外不太想天天坐班，毕竟我为了在家能舒服的玩电脑，下很大心思做桌子，买椅子。在网上查询到 Web3 行业上班是有全远程工作的。而且我还想经常在国外旅游，现在一些国家 USDT 甚至可以当法币进行交易，这简化了我往返国内外的换汇步骤，我只需要购买稳定币，就可以方便的在各个国家进行消费了。</p>
-<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>在网络上搜索”区块链 学习”会出现很多相关的文章，在 Github 上找到一个<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2NoYW96aC9hd2Vzb21lLWJsb2NrY2hhaW4tY24=">收录区块链的仓库<i class="fa fa-external-link-alt"></i></span>。</p>
-<p>另外<span class="exturl" data-url="aHR0cHM6Ly93d3cudjJleC5jb20vZ28vYmxvY2tjaGFpbg==">V2ex 的区块链板块<i class="fa fa-external-link-alt"></i></span>也有很多人在分享，<span class="exturl" data-url="aHR0cHM6Ly93d3cudjJleC5jb20vdC8xMDcyMzQxI3JlcGx5MA==">Web2 的开发者，如何进入 Web3<i class="fa fa-external-link-alt"></i></span></p>
-<!-- !链接 -->
-
-]]></content>
-      <categories>
-        <category>Web3</category>
-      </categories>
-      <tags>
-        <tag>Learning</tag>
-        <tag>Block Chain</tag>
-        <tag>Web3</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>虚拟币-初接触</title>
     <url>/virtual_coin_1/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为出国有了资金出境的想法，考量了很多方案，还是虚拟币比较适合我。所以简单了解下虚拟币。</p>
@@ -324,7 +291,7 @@
   <entry>
     <title>每日Topik - Day 0</title>
     <url>/TopikD0/</url>
-    <content><![CDATA[<h1 id="每日-Topik-Day-1"><a href="#每日-Topik-Day-1" class="headerlink" title="每日 Topik - Day 1"></a>每日 Topik - Day 1</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Topik 韩国语能力考试，在韩国本地基本每个月都有考试，在中国只有 4 月和 10 月两次考试。本文旨在简要介绍 Topik 考试。</p>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Topik 韩国语能力考试，在韩国本地基本每个月都有考试，在中国只有 4 月和 10 月两次考试。本文旨在简要介绍 Topik 考试。</p>
 <span id="more"></span>
 
 <h2 id="分级，题型，数目，时间"><a href="#分级，题型，数目，时间" class="headerlink" title="分级，题型，数目，时间"></a>分级，题型，数目，时间</h2><table>
