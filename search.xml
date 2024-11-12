@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>韩国 办网体验记录</title>
+    <url>/KRNetworkdep/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>在韩国办理宽带的记录。主要记录办理，配置，使用。</p>
+<span id="more"></span>
+
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ul>
+<li>优点：<ul>
+<li>自带公网IP</li>
+<li>使用DHCP上网省去拨号的麻烦</li>
+</ul>
+</li>
+<li>缺点：<ul>
+<li>想要上高带宽需要看房子，可能你住的房子没有高带宽的。</li>
+</ul>
+</li>
+</ul>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>使用 ROS 上网，连接之后/ip dhcp client 创建一个用来上网，之后就不用改了。</p>
+<h2 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h2><p>  就公网IPV4比国内强点，但没强太多。反而在其他方面落后很多。</p>
+]]></content>
+      <categories>
+        <category>Abroad</category>
+      </categories>
+      <tags>
+        <tag>Learning</tag>
+        <tag>Linux</tag>
+        <tag>Home Server Center</tag>
+        <tag>Network</tag>
+        <tag>KR Life</tag>
+        <tag>Abroad</tag>
+        <tag>RouterOS</tag>
+        <tag>Ros</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Apple IDs 系统准备</title>
     <url>/AppleIDsystem/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>记录Apple IDs 组建高性价比，花最少的钱，获得最大的服务。</p>
@@ -31,7 +65,7 @@
 <li>城市：Ankara</li>
 <li>邮编：06600</li>
 <li>电话号码：+90 312 275 79 66</li>
-<li>临时邮箱：<span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTIyOyYjMTEzOyYjeDYyOyYjeDY5OyYjMTAzOyYjeDZmOyYjMTAyOyYjeDdhOyYjeDczOyYjeDQwOyYjeDY5OyYjeDc1OyYjeDYyOyYjMTE0OyYjeDY5OyYjMTAwOyYjeDY3OyYjeDY1OyYjNDY7JiM5OTsmI3g2ZjsmIzEwOTs=">dzqbigofzs@iubridge.com<i class="fa fa-external-link-alt"></i></span></li>
+<li>临时邮箱：<span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDdhOyYjMTEzOyYjOTg7JiN4Njk7JiN4Njc7JiMxMTE7JiN4NjY7JiMxMjI7JiMxMTU7JiN4NDA7JiMxMDU7JiN4NzU7JiM5ODsmIzExNDsmI3g2OTsmIzEwMDsmIzEwMzsmI3g2NTsmI3gyZTsmIzk5OyYjeDZmOyYjeDZkOw==">dzqbigofzs@iubridge.com<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
 </li>
 <li>就业 &amp; 信用卡<ul>
@@ -598,35 +632,37 @@
 <li>韩国的 sim 卡分两种，一种是有外国人登陆证，有韩国银行卡才能办理的电话卡；一种是预付款卡，需要提前付款才能使用的电话卡。</li>
 <li>韩国的资费远远超过国内。我在国内使用两张电话卡，一张是北京联通的 8 元保号私人电话卡，一张是流量卡，主打一个量大，便宜，管饱。这张流量卡很便宜，再来韩国之前的流量卡 200 多 G19 元能结余一个月的流量。两张卡加一起也不到 30 元。但是韩国一张卡就要 100 多元起，流量也有限制。</li>
 <li>韩国电话卡流量限制。韩国流量分两部分，一个是共享流量，指的是通过手机热点走的流量；另一个是正常的流量，指的是手机自己走的流量。(PS：本人使用国内荣耀 X40 开热点，走的是正常流量，即使超过了套餐的限制，依旧能开热点，但是我的 Iphone 15 Pro 就不能开。或许这就是海外用华为，国内用 Iphone 吧，狗头)。</li>
-<li>韩国宽带，暂时没有申请。等我开始使用的时候再更新记录一下</li>
+<li>韩国宽带，<del>暂时没有申请。等我开始使用的时候再更新记录一下</del> 今天师傅来我家安装宽带了，本来说好的是1G带宽的网络，因为是老小区所以没了，是的跟国内不一样，没有光纤井，不是拉一根光纤到你家，在我住的这个小区，它的网线是埋在墙里的，宽带师傅来我家直接把“猫”插上墙上的网线，再接入路由器就可以正常上网了。韩国和国内不同的是这里的“猫”只负责证明我已经办了有线宽带了，然后DHCP直接分配一个公网。但是韩国没有IPV6，可能因为IPV4太多了吧，哈哈。</li>
 </ol>
 </li>
-</ul>
-<p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/IMG_0891.jpeg" alt="韩国风景"></p>
-<ul>
-<li>租房：<ol>
+<li><p>租房：</p>
+<ol>
 <li>韩国租房分两种：一种是月租，一种全租。月租就跟国内一样，月月付款，有一笔押金。全租就是付给房东一大笔钱(大约是房价的 50%~80%)，然后住一两年，期间免费。到期后退押金，这种不敢租不太了解。毕竟有这笔钱我不如买个房子。</li>
 <li>月租和国内不一样的就是押金，韩国的押金很贵，有的好小区，好房子押金可以要到 10wRMB。</li>
 </ol>
 </li>
-<li>饮食：<ol>
+<li><p>饮食：</p>
+<ol>
 <li>韩国饮食不是很习惯，在国内吃的韩式 XXX，在韩国吃根本不是一样的，应该有本地化。</li>
 <li>**<font color="red">韩国最好吃的就是中餐</font><strong>，</strong><font color="red">韩国最好吃的就是中餐</font><strong>，</strong><font color="red">韩国最好吃的就是中餐</font>**，重要的事情说三遍，不接受反驳。但是韩国的炸鸡真的好吃。</li>
 </ol>
 </li>
-<li>交通：<ol>
+<li><p>交通：</p>
+<ol>
 <li>在韩国行人在绿灯的情况下可以放心大胆的过马路，所有 **<font color="red">转弯车辆必须停车让人</font>**，比国内强，这也是我喜欢韩国仅有的几点之一。国内人太多，基数大，没素质的司机也就太多。</li>
 <li>公交：韩国公交是使用带芯片的银行卡。</li>
 <li>出租车：也可以使用银行卡。</li>
 </ol>
 </li>
-<li>银行：<ol>
+<li><p>银行：</p>
+<ol>
 <li>韩国的银行存款利率低</li>
-<li>韩国银行职员比国内银行职员要轻松(感觉)因为看着他们好像没啥 KPI，甚至我在办卡的时候，感觉他们“很不耐烦”，甚至卡着不给办。我也不太清楚。</li>
-<li>韩国用银行卡走全国，感觉没国内方便。</li>
+<li>韩国银行职员比国内银行职员要轻松(感觉)因为看着他们好像没啥 KPI，甚至我在办卡的时候，感觉他们“很不耐烦”，甚至有的外国人会被卡着不给办。我也不太清楚。</li>
+<li>韩国用银行卡走全国，感觉没国内拿手机方便。</li>
 </ol>
 </li>
 </ul>
+<h2 id="Update-by-2024-11-12-23-11-56"><a href="#Update-by-2024-11-12-23-11-56" class="headerlink" title="Update by 2024.11.12 23:11:56 :"></a>Update by 2024.11.12 23:11:56 :</h2><p>  上个月回了一趟国，真的很不习惯，一方面是国内交通环境，一方面是国内的人太多了。真的，人多到很难受的程度。这个月回的韩国，感觉还是这里更适合养老。</p>
 <h2 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h2>]]></content>
       <categories>
         <category>Abroad</category>
@@ -634,6 +670,165 @@
       <tags>
         <tag>KR Life</tag>
         <tag>Abroad</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>True NAS搭建学习记录</title>
+    <url>/NASDep/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>使用 NAS 存一些文档，代码，照片等，要求稳定，便利，开源，免费。</p>
+<span id="more"></span>
+
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><table>
+<thead>
+<tr>
+<th align="center">硬件</th>
+<th align="center">设备名</th>
+<th align="center">价格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">CPU</td>
+<td align="center">AMD EPYC 7D12 32 核 64 线程，1.1G 主频，3.0G 睿频</td>
+<td align="center">680 元淘宝</td>
+</tr>
+<tr>
+<td align="center">主板</td>
+<td align="center">超微 H1SSL-i</td>
+<td align="center">1250 元淘宝</td>
+</tr>
+<tr>
+<td align="center">内存</td>
+<td align="center">三星 ECC 2RX4 32G*2</td>
+<td align="center">478 元淘宝</td>
+</tr>
+<tr>
+<td align="center">固态</td>
+<td align="center">西部数据 SN640 3.68T</td>
+<td align="center">1159 淘宝</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td align="center">希捷 12T*2</td>
+<td align="center">599*2 元淘宝</td>
+</tr>
+<tr>
+<td align="center">电源</td>
+<td align="center">长城 850W</td>
+<td align="center">549 元淘宝</td>
+</tr>
+<tr>
+<td align="center">机箱</td>
+<td align="center">先马黑洞</td>
+<td align="center">279 元淘宝</td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td align="center">—–</td>
+<td align="center">5593 元</td>
+</tr>
+</tbody></table>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>使用 PVE 作为底层系统，安装 True NAS Scale提供存储服务</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul>
+<li>CPU： 2核</li>
+<li>内存：16G</li>
+<li>存储：2 * 12T 做冗余 + 4T 企业固态做缓存</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>google 上有很多教程</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li>[1] <span class="exturl" data-url="aHR0cHM6Ly9wdmUucHJveG1veC5jb20vd2lraS9NYWluX1BhZ2U=">PVE<i class="fa fa-external-link-alt"></i></span></li>
+<li>[2] <span class="exturl" data-url="aHR0cHM6Ly93d3cudHJ1ZW5hcy5jb20v">True NAS<i class="fa fa-external-link-alt"></i></span></li>
+<li>[3] <span class="exturl" data-url="aHR0cHM6Ly93d3cudHJ1ZW5hcy5jb20vdHJ1ZW5hcy1zY2FsZS8=">True NAS Scale Download<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Home Server Center</category>
+      </categories>
+      <tags>
+        <tag>Learning</tag>
+        <tag>Home Server Center</tag>
+        <tag>True NAS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>递归DNS 搭建学习记录</title>
+    <url>/DNSDep/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>因为国内 DNS 污染严重，虽然人在国外为了避免 DNS 泄露决定自己搭建一套 DNS 服务器。但是我的主路由使用 Ros，旁路由使用 Linux，又因为之前使用的 OpenWrt 经常在保存配置文件时卡住，进而崩掉系统，导致我有点 PTSD 了。遂放弃 OpenWrt 方案。</p>
+<span id="more"></span>
+
+<h2 id="DNS-架构"><a href="#DNS-架构" class="headerlink" title="DNS 架构"></a>DNS 架构</h2><p>这套 DNS 服务器架构使用一个根 DNS, 一个 Adguardhome。<br>运行流程：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TB</span><br><span class="line">A(用户)--&gt;|访问|B(Adguardhome)</span><br><span class="line">B--&gt;|查询|C(Root DNS)</span><br><span class="line">B--&gt;|缓存|B</span><br><span class="line">C==&gt;|1查询结果|B</span><br><span class="line">B==&gt;|1发送|A</span><br><span class="line">B--&gt;|2查询结果|A</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在这个系统中，有两种情况，</p>
+<ul>
+<li><ol>
+<li>AdGuardHome 中有缓存，直接返回。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>AdGuardHome 没有缓存，查询根 DNS 再执行递归查询操作，最后将获得的结果写入缓存以供下次使用。</li>
+</ol>
+</li>
+</ul>
+<p>如果在国内可能还要再加上国内外分流，这会在递归 DNS 查询时，增加分流步骤。人在国外，就不研究了。可以自行google</p>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>我自己也是一知半解，属于是摸石头过河。</p>
+<h3 id="Root-DNS"><a href="#Root-DNS" class="headerlink" title="Root DNS"></a>Root DNS</h3><p>本节中将使用 <span class="exturl" data-url="aHR0cHM6Ly93d3cuaXNjLm9yZy9iaW5kLw==">BIND<i class="fa fa-external-link-alt"></i></span> 搭建Root DNS</p>
+<h4 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h4><ul>
+<li>一台可以联网的 Linux 系统的虚拟机/实体机</li>
+<li>一份 bind9 稳定版安装包 <span class="exturl" data-url="aHR0cHM6Ly93d3cuaXNjLm9yZy9kb3dubG9hZC8=">下载<i class="fa fa-external-link-alt"></i></span></li>
+<li>一份 bind9 官方帮助文档 <span class="exturl" data-url="aHR0cHM6Ly9iaW5kOS5yZWFkdGhlZG9jcy5pby9lbi9sYXRlc3QvIw==">查看<i class="fa fa-external-link-alt"></i></span></li>
+<li>一份 <span class="exturl" data-url="aHR0cHM6Ly93d3cuaWFuYS5vcmcvZG9tYWlucy9yb290L2ZpbGVz">IANA官网<i class="fa fa-external-link-alt"></i></span> 的根服务器DNS 记录文件</li>
+</ul>
+<h4 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h4><p>按照bind9文档安装，我安装的位置是在/etc/bind</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── bind.keys</span><br><span class="line">├── db.0</span><br><span class="line">├── db.127</span><br><span class="line">├── db.255</span><br><span class="line">├── db.empty</span><br><span class="line">├── db.local</span><br><span class="line">├── named.conf</span><br><span class="line">├── named.conf.default-zones</span><br><span class="line">├── named.conf.local</span><br><span class="line">├── named.conf.options</span><br><span class="line">├── rndc.key</span><br><span class="line">├── root.hints</span><br><span class="line">├── root.zone</span><br><span class="line">└── zones.rfc1918</span><br></pre></td></tr></table></figure>
+<p>编辑文件<kbd>named.conf.default-zone</kbd>添加下面文字</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">zone "." {</span><br><span class="line">        type hint;</span><br><span class="line">        file "/etc/bind/root.hints";</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><p>Ubuntu 系统在配置 DNS 时，需要先关闭systemd-resolved </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl stop systemd-resolved &amp;&amp; \</span><br><span class="line">sudo systemctl disenable systemd-resolved</span><br></pre></td></tr></table></figure>
+<p>将<kbd>/etc/resolv.conf</kbd>文件删除并重新编写一次。在 rootDNS 配置完成前填入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nameserver 1.1.1.1</span><br><span class="line">nameserver 8.8.8.8</span><br></pre></td></tr></table></figure>
+<p>配置完成后填入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nameserver 127.0.0.1</span><br></pre></td></tr></table></figure>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>安装 dnsutils 使用 dig 测试是否安装成功<br><img src="https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/RootDNS_test.png" alt="DNS test"></p>
+<h3 id="Adguardhome"><a href="#Adguardhome" class="headerlink" title="Adguardhome"></a>Adguardhome</h3><p>本节中将搭建 Adguardhome 服务</p>
+<h4 id="准备-1"><a href="#准备-1" class="headerlink" title="准备"></a>准备</h4><ul>
+<li>一台可以联网的 Linux 系统的虚拟机/实体机</li>
+<li>一份 Adguardhome 的规则 (这里不做推荐，自行 google)</li>
+<li>一份 Adguardhome 的文件压缩包 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0FkR3VhcmRIb21lL3JlbGVhc2Vz">下载<i class="fa fa-external-link-alt"></i></span></li>
+<li>一份 Adguardhome 的帮助文档 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0FkR3VhcmRIb21lL3dpa2k=">查看<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h4 id="开始-1"><a href="#开始-1" class="headerlink" title="开始"></a>开始</h4><p>安装方案一：使用官方脚本</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v</span><br></pre></td></tr></table></figure>
+
+<p>安装方案二：将 AdGuardHome 压缩包解压。再配置 systemctl 来管理自启动。</p>
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>AdGuardHome 会在文件中生成一个类似querylog.json的文件，这个文件会随着时间不断变大，然后boom。所以需要请示清除<br>  <kbd>../data/filters/</kbd> 中存储Adhome的过滤器配置</li>
+</ul>
+<p>  初始文件树大概是<br>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── AdGuardHome</span><br><span class="line">├── AdGuardHome.yaml</span><br><span class="line">├── CHANGELOG.md</span><br><span class="line">├── LICENSE.txt</span><br><span class="line">└── README.md</span><br></pre></td></tr></table></figure></p>
+<p>  使用后大概是</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── AdGuardHome</span><br><span class="line">├── AdGuardHome.sig</span><br><span class="line">├── AdGuardHome.yaml</span><br><span class="line">├── CHANGELOG.md</span><br><span class="line">├── LICENSE.txt</span><br><span class="line">├── README.md</span><br><span class="line">└── data</span><br><span class="line">    ├── filters</span><br><span class="line">    │   ├── 1730121552.txt</span><br><span class="line">    │   ├── 1730121553.txt</span><br><span class="line">    │   ├── 1730121554.txt</span><br><span class="line">    │   ├── 1730121555.txt</span><br><span class="line">    │   ├── 1730121556.txt</span><br><span class="line">    │   ├── 1730121557.txt</span><br><span class="line">    │   ├── 1730121558.txt</span><br><span class="line">    │   ├── 1730121559.txt</span><br><span class="line">    │   ├── 1730121560.txt</span><br><span class="line">    │   ├── 1730121561.txt</span><br><span class="line">    │   ├── 1730194805.txt</span><br><span class="line">    │   ├── 1730194806.txt</span><br><span class="line">    │   ├── 1730194807.txt</span><br><span class="line">    │   ├── 1730194808.txt</span><br><span class="line">    │   ├── 1730194809.txt</span><br><span class="line">    │   ├── 1730194810.txt</span><br><span class="line">    │   ├── 1730194811.txt</span><br><span class="line">    │   └── 1730194812.txt</span><br><span class="line">    ├── querylog.json</span><br><span class="line">    ├── sessions.db</span><br><span class="line">    └── stats.db</span><br></pre></td></tr></table></figure>
+<ul>
+<li>正常是使用 systemctl 管理AdGuardHome，如果无法使用，在<kbd>/etc/systemd/system/</kbd>路径下创建一个<kbd>AdGuardHome.service</kbd>文件并填入下面内容。 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=AdGuard Home: Network-level blocker</span><br><span class="line">ConditionFileIsExecutable=/opt/AdGuardHome/AdGuardHome</span><br><span class="line"></span><br><span class="line">After=syslog.target network-online.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">StartLimitInterval=5</span><br><span class="line">StartLimitBurst=10</span><br><span class="line">ExecStart=/opt/AdGuardHome/AdGuardHome "-s" "run"</span><br><span class="line"></span><br><span class="line">WorkingDirectory=/opt/AdGuardHome</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">StandardOutput=journal</span><br><span class="line">StandardError=journal</span><br><span class="line"></span><br><span class="line">Restart=always</span><br><span class="line"></span><br><span class="line">RestartSec=10</span><br><span class="line">EnvironmentFile=-/etc/sysconfig/AdGuardHome</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="路由"><a href="#路由" class="headerlink" title="路由"></a>路由</h3><p>将 DHCP 中 DNS 设置为 AdguardHome 的 ip 地址。很简单啦。</p>
+<h2 id="测试-1"><a href="#测试-1" class="headerlink" title="测试"></a>测试</h2><p>Windows 系统使用 nslookup xxx.com，Linux 系统使用 dig xxx.com 测试电脑使用什么 DNS 以及耗时多少。<br><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/nslookup.png" alt="Windows DNS测试"></p>
+<p><img src="https://git.c0despace.uk/https://raw.githubusercontent.com/zywj0han9/Img-bed/master/imgs/dig.png" alt="Linux DNS测试"></p>
+<p>如果这里 Server 都是 AdguardHome 的 ip 地址就说明没问题了。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li>[1] <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0FkR3VhcmRIb21l">AdGuardHome Github<i class="fa fa-external-link-alt"></i></span></li>
+<li>[2] <span class="exturl" data-url="aHR0cHM6Ly9sYW50aWFuLnB1Yi9hcnRpY2xlL21vZGlmeS13ZWJzaXRlL3NlbGZob3N0LWRucy1yb290LXNlcnZlci5sYW50aWFuLw==">Root DNS<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Home Server Center</category>
+      </categories>
+      <tags>
+        <tag>Learning</tag>
+        <tag>Linux</tag>
+        <tag>bind9</tag>
+        <tag>Unbound DNS</tag>
+        <tag>Home Server Center</tag>
       </tags>
   </entry>
   <entry>
@@ -752,9 +947,9 @@
       <tags>
         <tag>Learning</tag>
         <tag>Linux</tag>
+        <tag>Home Server Center</tag>
         <tag>Server</tag>
         <tag>Docker</tag>
-        <tag>Home Server Center</tag>
         <tag>Network</tag>
       </tags>
   </entry>
